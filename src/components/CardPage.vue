@@ -35,7 +35,7 @@ const mensagem6 = 'Inspirada na beleza e na grandiosidade do Rio Taquari, nossa 
 
 const imageSrc7 = irlanda
 const title4 = 'Irlanda'
-const mensagem7 = 'A piscina é um dos elementos que mais valorizam a decoração de uma casa e a Rio Irlanda, com banco com hidro e escadas, em lados opostos, irá tornar seu ambiente em um espaço único, moderno e inovador.'
+const mensagem7 = 'A piscina é um dos elementos que mais valorizam a decoração de uma casa e a Rio Irlanda, com banco, hidro e escadas, em lados opostos, irá tornar seu ambiente em um espaço único, moderno e inovador.'
 
 </script>
 
