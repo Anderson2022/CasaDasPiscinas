@@ -1,6 +1,7 @@
 <script setup lang="ts">
+import espanha from "src/assets/imagen/guapore7-2.png"
 
-const imageSrc1 = 'src/assets/imagen/guapore7-2.png'
+const imageSrc1 = espanha
 const title1 = 'Espanha'
 const mensagem1 =
   'Nossas Piscinas são a melhor opção para sua área de lazer por sua durabilidade e resistência, além de oferecer um visual elegante e sofisticado para qualquer ambiente. Trabalhamos com materiais de alta qualidade e contamos com uma equipe altamente experiente e qualificada para garantir que sua piscina fique perfeita'
