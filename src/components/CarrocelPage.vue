@@ -4,15 +4,14 @@ import {
   initTE,
 } from "tw-elements";
 import { ref, onMounted, onBeforeUnmount } from 'vue';
-import teste from "./../assets/imagen/teste1.jpg"
-import teste2 from "./../assets/imagen/teste2.jpg"
-import teste3 from "./../assets/imagen/teste3.jpg"
+import teste from "./../assets/imagen/modeloirlandasite.jpg"
+import teste2 from "./../assets/imagen/modeloEspanhaweb2.jpg"
+import teste3 from "./../assets/imagen/modelomexicoweb.jpg"
+import teste4 from "./../assets/imagen/ofertasWeb.jpg"
 initTE({ Carousel });
 
 const images = [
-teste,teste2, teste3,
-  'https://mdbcdn.b-cdn.net/img/new/slides/042.webp',
-  'https://mdbcdn.b-cdn.net/img/new/slides/043.webp'
+teste,teste2, teste3,teste4 
 ];
 
 const activeIndex = ref(0);
