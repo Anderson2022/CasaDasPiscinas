@@ -33,7 +33,7 @@ onMounted(() => {
         class="flex items-center justify-center sm:w-10rem h-10 max-h-32 mt-12 flex-col sm:flex-row sm:h-44 animated-element"
       >
         <button
-          class="bg-blue-500 text-white px-4 py-2 mb-2 sm:mb-0 rounded-lg w-full sm:w-auto sm:w-72 mx-1"
+          class="bg-blue-500 text-white px-4 py-2 mb-2 sm:mb-0 rounded-lg w-full  sm:w-72 mx-1"
         >
           Faça seu Orçamento<i class="fas fa-envelope mx-2"></i>
         </button>

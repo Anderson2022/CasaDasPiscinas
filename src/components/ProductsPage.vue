@@ -40,7 +40,7 @@ const items = [
 </script>
 
 <template>
-<div class="w-full h-full md:h-auto grid grid-cols-1 md:grid-cols-3 gap-4 px-2 py-4">
+<div class="w-full h-full md:h-auto grid grid-cols-1 md:grid-cols-3 gap-4 px-2 py-4 bg-blue-400">
   <!-- Loop through items -->
   <div v-for="(item, index) in items" :key="index" class="select-none mb-6 w-full animated-element">
     <div class="relative pb-64">
@@ -50,7 +50,7 @@ const items = [
     </div>
 
     <div class="px-4 -mt-16 relative">
-      <div class="bg-white rounded-lg shadow-lg border">
+      <div class="bg-slate-300 rounded-lg shadow-lg border">
         <div class="p-5">
           <div class="flex justify-between items-center">
             <div class="opacity-75 text-xs">
@@ -67,12 +67,10 @@ const items = [
 
         <div class="flex justify-between items-center pb-3 px-4">
           <div>
-            <!-- You can customize this part based on your item data -->
-            <!-- For example, displaying price and stock status -->
-            <!-- Replace the placeholders with your actual data -->
+   
             <div class="text-gray-800 text-lg">
-              <span class="line-through opacity-75">{{ item.oldPrice }}</span>
-              <span class="font-medium">{{ item.newPrice }}</span>
+              <!-- <span class="line-through opacity-75">{{ item.oldPrice }}</span>
+              <span class="font-medium">{{ item.newPrice }}</span> -->
             </div>
           </div>
 
