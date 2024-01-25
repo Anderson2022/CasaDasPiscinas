@@ -8,7 +8,7 @@
     {
       "id": 2,
       "name": "Rio Guaporé",
-      "image": "../../src/assets/imagen/guapore7-2.png",
+      "image": "/imagen/guapore7-2.png",
       "color": "teal"
     },
     {
