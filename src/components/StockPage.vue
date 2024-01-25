@@ -6,6 +6,7 @@ import ProductCard from './ProductCard.vue';
 import pessoa from '../../src/assets/imagen/pessoa.jpg'
 import retrato from '../../src/assets/imagen/retrato.jpg'
 import vista from '../../src/assets/imagen/vista.jpg'
+import jsonPath  from '../components/product.json'
 
 interface Produto {
   id: number;
@@ -18,10 +19,12 @@ const produtos = ref<Produto[]>([]);
 
 const carregarJSON = async () => {
   try {
-    const resposta = await fetch('./../src/components/Script/product.json');
-    produtos.value = await resposta.json();
+    // O conteúdo do arquivo JSON já foi importado diretamente
+    // Não é necessário usar fetch, pois você já tem os dados
+    produtos.value = jsonPath;
+    console.log(produtos.value);
   } catch (erro) {
-    console.error('Erro ao carregar o arquivo JSON.:', erro);
+    console.error('Erro ao carregar o arquivo JSON:', erro);
   }
 };
 
