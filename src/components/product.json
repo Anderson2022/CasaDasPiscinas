@@ -2,7 +2,7 @@
     {
       "id": 1,
       "name": "Rio Parana",
-      "image": "guapore7-2.png",
+      "image": "parana8.png",
       "color": "orange"
     },
     {
@@ -13,29 +13,41 @@
     },
     {
       "id": 3,
-      "name": "Rio Guaiba",
-      "image": "guapore7-2.png",
+      "name": "Rio Guaiba 3",
+      "image": "guaiba-3.png",
       "color": "orange"
     }
     ,
     {
       "id": 4,
       "name": "Rio Tapajós",
-      "image": "guapore7-2.png",
+      "image": "tapajos9.png",
       "color": "teal"
-    }
+    } 
     ,
     {
       "id":5,
       "name": "Rio Iguaçu",
-      "image": "guapore7-2.png",
+      "image": "iguacu-2.png",
       "color": "orange"
     }
     ,
     {
       "id": 6,
-      "name": "Rio Rio dos Sinos",
-      "image": "guapore7-2.png",
+      "name": "Riodos Sinos",
+      "image": "riodossinos66.png",
+      "color": "teal"
+    },
+    {
+      "id": 7,
+      "name": "Rio Taquari",
+      "image": "taquarisit.jpg",
+      "color": "teal"
+    },
+    {
+      "id": 8,
+      "name": "Rio Hualai",
+      "image": "hualai.png",
       "color": "teal"
     }
   ]

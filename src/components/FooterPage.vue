@@ -24,11 +24,12 @@ onMounted(() => {
 <template>
   <div class="sm:flex-row">
     <div
-      class="h-96 sm:h-56 w-screen border-current relative flex items-center flex-col sm:flex-row"
+      class="mt-6 h-96 sm:h-56 w-screen border-current relative flex items-center flex-col sm:flex-row"
     >
-      <div class="sm:w-full animated-element">
-        <img class="w-96" :src="imageSrc" alt="Imagem" />
-      </div>
+    <router-link to="/">
+  <img class="w-28 h-20 max-sm:w-32" :src="imageSrc" alt="Imagem" />
+</router-link>
+
       <div
         class="flex items-center justify-center sm:w-10rem h-10 max-h-32 mt-12 flex-col sm:flex-row sm:h-44 animated-element"
       >
