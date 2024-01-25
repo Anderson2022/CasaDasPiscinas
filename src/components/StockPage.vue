@@ -18,7 +18,7 @@ const produtos = ref<Produto[]>([]);
 
 const carregarJSON = async () => {
   try {
-    const resposta = await fetch('src/components/Script/product.json');
+    const resposta = await fetch('./../src/components/Script/product.json');
     produtos.value = await resposta.json();
   } catch (erro) {
     console.error('Erro ao carregar o arquivo JSON:', erro);
