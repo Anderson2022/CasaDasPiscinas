@@ -44,7 +44,7 @@ onMounted(() => {
 </router-link>
 
     </div>
-    <div class="items-center relative">
+    <div class="items-center relative sm:w-[70rem]">
       <div class="md:hidden ml-16">
         <button
           @click="toggleMenu"
@@ -66,7 +66,7 @@ onMounted(() => {
           </svg>
         </button>
       </div>
-      <div class="mx-24 items-center justify-between hidden w-full md:flex md:w-auto md:order-1">
+      <div class="mx-24 items-center justify-between hidden w-full md:flex md:w-auto md:order-1 ">
         <ul
           class="w-full items-center justify-between flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
         >
@@ -104,8 +104,6 @@ onMounted(() => {
           </li>
         </ul>
       </div>
-
-      <!-- Menu de navegação -->
     </div>
   </div>
   <div
@@ -119,7 +117,7 @@ onMounted(() => {
   >
     <ul
       v-if="isMenuOpen"
-      class="w-full relative items-center justify-between flex flex-col p-9 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+      class="w-full relative items-center justify-between flex flex-col p-9 font-medium border border-gray-100 rounded-lg bg-[#80286C] md:space-x-8 rtl:space-x-reverse md:flex-row md:border-0 md:bg-[#80286C] dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
       style="z-index: 9999"
     >
       <li class="absolute top-0 right-0">
@@ -141,32 +139,33 @@ onMounted(() => {
         </button>
       </li>
       <li>
-            <router-link
-              to="/stock"
-              class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
-              aria-current="page"
-            >
-              PISCINAS
-            </router-link>
-          </li>
+  <router-link
+    to="/stock"
+    class="block py-2 px-3 text-white rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 transition duration-300 ease-in-out hover:bg-gray-200"
+    aria-current="page"
+  >
+    PISCINAS
+  </router-link>
+</li>
+
       <li>
         <a
           href="#"
-          class="block py-2 px-3 text-gray-900 rounded hover:bg-blue-500 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+          class="block py-2 px-3 text-white  rounded hover:bg-blue-500 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
           >PRODUTOS</a
         >
       </li>
       <li>
         <a
           href="#"
-          class="block py-2 px-3 text-gray-900 rounded hover:bg-blue-500 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+          class="block py-2 px-3 text-white  rounded hover:bg-blue-500 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
           >ORÇAMENTOS</a
         >
       </li>
       <li>
         <a
           href="#"
-          class="block py-2 px-3 mb-8 text-gray-900 rounded hover:bg-blue-500 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+          class="block py-2 px-3 mb-8 text-white  rounded hover:bg-blue-500 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
           >SOBRE A CASA DAS PISCINAS</a
         >
       </li>
@@ -174,7 +173,7 @@ onMounted(() => {
         <a
           :href="whats"
           target="_blank"
-          class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+          class="block py-2 px-3 text-white  rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
           aria-current="page"
           >VENDAS +55 69 992896672</a
         >

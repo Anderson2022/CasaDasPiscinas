@@ -8,6 +8,8 @@ import vista from '../../src/assets/imagen/vista.jpg'
 import jsonPath from '../components/product.json'
 import jsonPathLux from '../components/productLux.json'
 import jsonPathSpa from '../components/productSpa.json'
+import ScrollReveal from 'scrollreveal'
+import { Tooltip, initTE } from 'tw-elements'
 
 interface Produto {
   id: number
@@ -34,34 +36,50 @@ const carregarJSON = async () => {
 }
 
 onMounted(carregarJSON)
+
+onMounted(() => {
+  const sr = ScrollReveal({
+    distance: '20px',
+    duration: 800,
+    delay: 200,
+    easing: 'ease-in-out'
+  })
+
+  sr.reveal('.animated-element', { origin: 'bottom', interval: 100 })
+
+  // Outras configurações e animações, se necessário
+})
+onMounted(() => {
+  initTE({ Tooltip })
+})
 </script>
 
 <!-- Produtos.vue -->
 <template>
-  <div class="w-screen h-20 flex items-center justify-center bg-gray-100">
+  <div class="w-screen h-20 flex items-center justify-center bg-gray-100 animated-element">
     <h1 class="text-blue-500 font-bold italic text-4xl">Rio <span class="text-pool-500"></span></h1>
   </div>
-  <div class="p-20 flex flex-wrap items-center justify-center">
+  <div class="p-20 flex flex-wrap items-center justify-center animated-element">
     <ProductCard v-for="produto in produtos" :key="produto.id" :produto="produto" />
   </div>
 
-  <div class="w-screen h-20 flex items-center justify-center bg-gray-100">
+  <div class="w-screen h-20 flex items-center justify-center bg-gray-100 animated-element">
     <h1 class="text-blue-500 font-bold italic text-4xl">
       Rio <span class="text-pool-500">Lux</span>
     </h1>
   </div>
 
-  <div class="p-20 flex flex-wrap items-center justify-center">
+  <div class="p-20 flex flex-wrap items-center justify-center animated-element">
     <ProductCardLux v-for="produto1 in produtosLLux" :key="produto1.id" :produto1="produto1" />
   </div>
 
-  <div class="w-screen h-20 flex items-center justify-center bg-gray-100">
+  <div class="w-screen h-20 flex items-center justify-center bg-gray-100 animated-element">
     <h1 class="text-blue-500 font-bold italic text-4xl">
       Rio <span class="text-pool-500">SPA</span>
     </h1>
   </div>
 
-  <div class="p-24 flex flex-wrap items-center justify-center">
+  <div class="p-24 flex flex-wrap items-center justify-center animated-element">
     <ProductCardLux v-for="produto1 in produtosSpa" :key="produto1.id" :produto1="produto1" />
   </div>
 
