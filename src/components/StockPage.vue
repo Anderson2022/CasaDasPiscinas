@@ -21,7 +21,7 @@ const carregarJSON = async () => {
     const resposta = await fetch('./../src/components/Script/product.json');
     produtos.value = await resposta.json();
   } catch (erro) {
-    console.error('Erro ao carregar o arquivo JSON:', erro);
+    console.error('Erro ao carregar o arquivo JSON.:', erro);
   }
 };
 
