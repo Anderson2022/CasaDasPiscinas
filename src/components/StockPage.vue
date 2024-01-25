@@ -38,24 +38,24 @@ onMounted(carregarJSON)
 
 <!-- Produtos.vue -->
 <template>
-  <div class="w-screen h-10 flex items-center justify-center bg-gray-100">
+  <div class="w-screen h-20 flex items-center justify-center bg-gray-100">
     <h1 class="text-blue-500 font-bold italic text-4xl">Rio <span class="text-pool-500"></span></h1>
   </div>
-  <div class="p-24 flex flex-wrap items-center justify-center">
+  <div class="p-20 flex flex-wrap items-center justify-center">
     <ProductCard v-for="produto in produtos" :key="produto.id" :produto="produto" />
   </div>
 
-  <div class="w-screen h-10 flex items-center justify-center bg-gray-100">
+  <div class="w-screen h-20 flex items-center justify-center bg-gray-100">
     <h1 class="text-blue-500 font-bold italic text-4xl">
       Rio <span class="text-pool-500">Lux</span>
     </h1>
   </div>
 
-  <div class="p-24 flex flex-wrap items-center justify-center">
+  <div class="p-20 flex flex-wrap items-center justify-center">
     <ProductCardLux v-for="produto1 in produtosLLux" :key="produto1.id" :produto1="produto1" />
   </div>
 
-  <div class="w-screen h-10 flex items-center justify-center bg-gray-100">
+  <div class="w-screen h-20 flex items-center justify-center bg-gray-100">
     <h1 class="text-blue-500 font-bold italic text-4xl">
       Rio <span class="text-pool-500">SPA</span>
     </h1>
