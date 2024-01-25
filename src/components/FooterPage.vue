@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import imageSrc from './../assets/imagen/Login2.png'
+import imageSrc from './../assets/imagen/rio ccz.png'
 import ScrollReveal from 'scrollreveal'
 import { onMounted } from 'vue'
 
