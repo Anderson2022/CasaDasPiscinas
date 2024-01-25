@@ -23,7 +23,7 @@
       "name": "Rio Tapajós",
       "image": "tapajos9.png",
       "color": "teal"
-    } 
+    }
     ,
     {
       "id":5,
@@ -34,14 +34,14 @@
     ,
     {
       "id": 6,
-      "name": "Riodos Sinos",
+      "name": "Rio Rio dos Sinos",
       "image": "riodossinos66.png",
       "color": "teal"
     },
     {
       "id": 7,
       "name": "Rio Taquari",
-      "image": "taquarisit.jpg",
+      "image": "taquarisit.png",
       "color": "teal"
     },
     {

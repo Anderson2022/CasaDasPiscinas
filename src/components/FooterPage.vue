@@ -5,7 +5,8 @@ import { onMounted } from 'vue'
 
 const face = 'https://www.facebook.com/profile.php?id=61550529652901&locale=pt_BR'
 const insta = 'https://www.instagram.com/piscinas_cacoal/'
-const whats = 'https://api.whatsapp.com/send/?phone=556992896672&text=Tenho+interesse+&type=phone_number&app_absent=0'
+const whats =
+  'https://api.whatsapp.com/send/?phone=556992896672&text=Tenho+interesse+&type=phone_number&app_absent=0'
 
 onMounted(() => {
   const sr = ScrollReveal({
@@ -26,20 +27,22 @@ onMounted(() => {
     <div
       class="mt-6 h-96 sm:h-56 w-screen border-current relative flex items-center flex-col sm:flex-row"
     >
-    <router-link to="/">
-  <img class="w-28 h-20 max-sm:w-32" :src="imageSrc" alt="Imagem" />
-</router-link>
+    <div class="w-96 items-center  justify-center flex">
+         <router-link to="/">
+        <img class="w-28 h-20 max-sm:w-32" :src="imageSrc" alt="Imagem" />
+      </router-link>
 
+    </div>
+   
       <div
         class="flex items-center justify-center sm:w-10rem h-10 max-h-32 mt-12 flex-col sm:flex-row sm:h-44 animated-element"
       >
         <button
-          class="bg-blue-500 text-white px-4 py-2 mb-2 sm:mb-0 rounded-lg w-full  sm:w-72 mx-1"
+          class="bg-blue-500 text-white px-4 py-2 mb-2 sm:mb-0 rounded-lg w-full sm:w-72 mx-1"
         >
           Faça seu Orçamento<i class="fas fa-envelope mx-2"></i>
         </button>
         <button class="bg-pink-500 text-white px-4 py-2 rounded-lg sm:w-72 mx-1">
-        
           <a :href="whats" target="_blank">
             Faça seu Orçamento
             <i class="fab fa-whatsapp mx-2"></i>

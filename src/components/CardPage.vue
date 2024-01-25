@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import espanha from './../assets/imagen/guapore7-2.png'
-import peru from './../assets/imagen/hualai.png'
-import australia from './../assets/imagen/iguacu-2.png'
-import mexico from './../assets/imagen/parana8.png'
+import Guapore from './../assets/imagen/guapore7-2.png'
+import Hualai from './../assets/imagen/hualai.png'
+import Iguacu from './../assets/imagen/iguacu-2.png'
+import Parana from './../assets/imagen/parana8.png'
 import grecia from './../assets/imagen/riodossinos5.png'
 import irlandaHidro from './../assets/imagen/taquarisite.jpg'
 import irlanda from './../assets/imagen/tapajos9.png'
@@ -22,38 +22,38 @@ onMounted(() => {
   // Outras configurações e animações, se necessário
 });
 
-const imageSrc1 = espanha
-const title1 = 'Espanha'
+const imageSrc1 = Guapore
+const title1 = 'Rio Guaporé'
 const mensagem1 =
   'Nossas Piscinas são a melhor opção para sua área de lazer por sua durabilidade e resistência, além de oferecer um visual elegante e sofisticado para qualquer ambiente. Trabalhamos com materiais de alta qualidade e contamos com uma equipe altamente experiente e qualificada para garantir que sua piscina fique perfeita'
 
-const imageSrc2 = peru
-const title6 = 'Peru'
+const imageSrc2 = Hualai
+const title6 = 'Rio Hualai'
 const mensagem2 =
-  'Com o conceito de uma piscina completa, a Rio Peru oferece tudo o que você e sua família precisam para relaxar e desfrutar de ótimos momentos juntos na sua área de lazer, compartilhando experiências inesquecíveis com amigos.'
+  'Com o conceito de uma piscina completa, a Rio Hualai oferece tudo o que você e sua família precisam para relaxar e desfrutar de ótimos momentos juntos na sua área de lazer, compartilhando experiências inesquecíveis com amigos.'
 
-const imageSrc3 = australia
-const title5 = 'Australia'
+const imageSrc3 = Iguacu
+const title5 = 'Rio Iguaçu'
 const mensagem3 =
-  'A Rio Australia é perfeita para criar um ambiente exclusivo, seguro e completo, proporcionando à sua família e amigos momentos de descontração únicos no SPA e na prainha, transformando sua área de lazer em um refúgio de relaxamento e diversão.'
+  'A Rio Iguaçu é perfeita para criar um ambiente exclusivo, seguro e completo, proporcionando à sua família e amigos momentos de descontração únicos no SPA e na prainha, transformando sua área de lazer em um refúgio de relaxamento e diversão.'
 
-const imageSrc4 = mexico
-const title3 = 'Mexico'
+const imageSrc4 = Parana
+const title3 = 'Rio Paraná'
 const mensagem4 =
-  'A piscina Rio México é uma opção sofisticada, conquistando pela elegância de suas formas cuidadosamente elaboradas. Este modelo, amplamente popular no Brasil, destaca-se por seu design refinado, com cantos mais arredondados, e está disponível em uma variedade de tamanhos para atender às suas necessidades.'
+  'A piscina Rio Paraná é uma opção sofisticada, conquistando pela elegância de suas formas cuidadosamente elaboradas. Este modelo, amplamente popular no Brasil, destaca-se por seu design refinado, com cantos mais arredondados, e está disponível em uma variedade de tamanhos para atender às suas necessidades.'
 
 const imageSrc5 = grecia
-const title2 = 'Grecia'
+const title2 = 'Rio dos Sinos'
 const mensagem5 =
-  'A piscina Rio Grecia recebeu um toque especial com as bordas das paredes internas revestidas por pastilhas. Este modelo, com design tradicional, destaca-se pelo excelente aproveitamento de área útil, proporcionando uma combinação única de estética e funcionalidade.'
+  'A piscina Rio dos Sinos recebeu um toque especial com as bordas das paredes internas revestidas por pastilhas. Este modelo, com design tradicional, destaca-se pelo excelente aproveitamento de área útil, proporcionando uma combinação única de estética e funcionalidade.'
 
 const imageSrc6 = irlandaHidro
-const title7 = 'Irlanda Hidro'
+const title7 = 'Rio Taquari'
 const mensagem6 =
   'Inspirada na beleza e na grandiosidade do Rio Taquari, nossa piscina traz a sensação única de relaxamento e harmonia para o seu espaço. Com seu design sofisticado e espaço confortável para hidromassagem, a Piscina Rio Taquari oferece um ambiente acolhedor e convidativo, proporcionando Mergulhos Inesquecíveis de lazer e bem-estar.'
 
 const imageSrc7 = irlanda
-const title4 = 'Irlanda'
+const title4 = 'Rio Tapajós'
 const mensagem7 =
   'A piscina é um dos elementos que mais valorizam a decoração de uma casa e a Rio Irlanda, com banco, hidro e escadas, em lados opostos, irá tornar seu ambiente em um espaço único, moderno e inovador.'
 </script>

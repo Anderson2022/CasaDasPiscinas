@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "name": "Moorea",
+        "image": "moorea.png",
+        "color": "orange"
+    },
+    {
+        "id": 2,
+        "name": "Bermudas",
+        "image": "bermudas.png",
+        "color": "orange"
+    },
+    {
+        "id": 3,
+        "name": "Azul",
+        "image": "azul.png",
+        "color": "orange"
+    }
+
+]

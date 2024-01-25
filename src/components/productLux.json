@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "Gion",
+        "image": "RioLux_Gion-2-1536x760.jpg",
+        "color": "orange"
+    },
+    {
+        "id": 2,
+        "name": "Jordan",
+        "image": "jordam.jpg",
+        "color": "orange"
+    },
+    {
+        "id": 3,
+        "name": "Èden",
+        "image": "rioeden-1536x760.jpg",
+        "color": "orange"
+    },
+    {
+        "id": 4,
+        "name": "Prainha",
+        "image": "rioluxspa_image.png",
+        "color": "orange"
+    }
+
+]
