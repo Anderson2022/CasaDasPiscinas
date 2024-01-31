@@ -2,26 +2,62 @@
     {
         "id": 1,
         "name": "Gion",
-        "image": "RioLux_Gion-2-1536x760.jpg",
-        "color": "orange"
+        "image": "RioLux_Gion-2-1536x760.jpg"
     },
     {
         "id": 2,
         "name": "Jordan",
-        "image": "jordam.jpg",
-        "color": "orange"
+        "image": "jordam.jpg"
     },
     {
         "id": 3,
         "name": "Èden",
-        "image": "rioeden-1536x760.jpg",
-        "color": "orange"
+        "image": "rioeden-1536x760.jpg"
     },
     {
         "id": 4,
         "name": "Prainha",
-        "image": "rioluxspa_image.png",
-        "color": "orange"
-    }
+        "image": "rioluxspa_image.png"
+    },
+
+
+
+
+    
+{
+  "id": 2,
+  "name": "Rio Guaporé",
+  "image": "guapore7-2.png"
+},
+{
+  "id": 3,
+  "name": "Rio Guaiba 3",
+  "image": "guaiba-3.png"
+},
+{
+  "id": 4,
+  "name": "Rio Tapajós",
+  "image": "tapajos9.png"
+},
+{
+  "id": 5,
+  "name": "Rio Iguaçu",
+  "image": "iguacu-2.png"
+},
+{
+  "id": 6,
+  "name": "Rio Rio dos Sinos",
+  "image": "riodossinos66.png"
+},
+{
+  "id": 7,
+  "name": "Rio Taquari",
+  "image": "taquarisit.png"
+},
+{
+  "id": 8,
+  "name": "Rio Hualai",
+  "image": "hualai.png"
+}
 
 ]

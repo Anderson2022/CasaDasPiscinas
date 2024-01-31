@@ -1,54 +1,73 @@
-[
+[{
+  "id": 1,
+  "name": "Rio Paraná",
+  "descricao": "O Rio Paraná proporciona o ambiente perfeito para uma experiência exclusiva, segura e completa. Aqui, a família e os amigos podem desfrutar de momentos descontraídos no SPA ou na Prainha, desfrutando plenamente da área de lazer.",
+  "image": "parana8.png",
+  "imageinfo": "paranaweb.png",
+  "imageC": [
+    "linhaparana.jpg",
+    "paranac(1).jpg",
+    "paranac(2).jpg",
+    "paranac(3).jpg"
+  ],
+  "info": [
     {
-      "id": 1,
-      "name": "Rio Parana",
-      "image": "parana8.png",
-      "color": "orange"
+      "name": "Parana 3",
+      "imageinfo": ["parana3.png", "parana3p.png"],
+      "tamanho": "C 3,00M, L 1,79M, P 1,20M",
+      "PRECO": "0",
+      "Promocao": "0",
+      "PLANTA": "parana3.pdf"
     },
     {
-      "id": 2,
-      "name": "Rio Guaporé",
-      "image": "guapore7-2.png",
-      "color": "teal"
+      "name": "Parana 4x1",
+      "imageinfo": ["parana4x1.png", "parana4x1p.png"],
+      "tamanho": "C 3,95M, L 2,35M, P 1,00M",
+      "PRECO": "0",
+      "PLANTA": "parana4x1.pdf"
     },
     {
-      "id": 3,
-      "name": "Rio Guaiba 3",
-      "image": "guaiba-3.png",
-      "color": "orange"
-    }
-    ,
-    {
-      "id": 4,
-      "name": "Rio Tapajós",
-      "image": "tapajos9.png",
-      "color": "teal"
-    }
-    ,
-    {
-      "id":5,
-      "name": "Rio Iguaçu",
-      "image": "iguacu-2.png",
-      "color": "orange"
-    }
-    ,
-    {
-      "id": 6,
-      "name": "Rio Rio dos Sinos",
-      "image": "riodossinos66.png",
-      "color": "teal"
+      "name": "Parana 4x130",
+      "imageinfo": ["parana4x130.png", "parana4x130p.png"],
+      "tamanho": "C 3,96M, L 2,36M, P 1,30M",
+      "PRECO": "0",
+      "PLANTA": "parana4x130.pdf"
     },
     {
-      "id": 7,
-      "name": "Rio Taquari",
-      "image": "taquarisit.png",
-      "color": "teal"
+      "name": "Parana 5",
+      "imageinfo": ["parana5.png", "parana5p.png"],
+      "tamanho": "C 4,93M, L 2,72M, P 1,30M",
+      "PRECO": "0",
+      "PLANTA": "parana5.pdf"
     },
     {
-      "id": 8,
-      "name": "Rio Hualai",
-      "image": "hualai.png",
-      "color": "teal"
+      "name": "Parana 6",
+      "imageinfo": ["parana6.png", "parana6p.png"],
+      "tamanho": "C 6,00M, L 3,00M, P 1,30M",
+      "PRECO": "0",
+      "PLANTA": "parana6.pdf"
+    },
+    {
+      "name": "Parana 7",
+      "imageinfo": ["parana7.png", "parana7p.png"],
+      "tamanho": "C 6,97M, L 3,42M, P 1,40M",
+      "PRECO": "0",
+      "PLANTA": "parana7.pdf"
+    },
+    {
+      "name": "Parana 8",
+      "imageinfo": ["parana8.png", "parana8p.png"],
+      "tamanho": "C 7,97M, L 3,89M, P 1,40M",
+      "PRECO": "0",
+      "PLANTA": "parana8.pdf"
+    },
+    {
+      "name": "Parana 10",
+      "imageinfo": ["parana10.png", "parana10p.png"],
+      "tamanho": "C 9,98M, L 4,06M P 1,40M",
+      "PRECO": "0",
+      "PLANTA": "parana10.pdf"
     }
   ]
-  
+}
+]

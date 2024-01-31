@@ -20,7 +20,7 @@
   const props = defineProps(['produto']);
 
   const handleClick = () => {
-  console.log('Clicou! produto1.id:', props.produto.id);
+  console.log('Clicou! produto1.id:', props.produto);
 };
   </script>
   
