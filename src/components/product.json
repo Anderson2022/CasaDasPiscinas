@@ -15,7 +15,7 @@
       "name": "Parana 3",
       "imageinfo": ["parana3.png", "parana3p.png","experienciacell.png"],
       "tamanho": "C 3,00M, L 1,79M, P 1,20M",
-      "PRECO": "16.000,00",
+      "PRECO": "14.300,00",
       "Promocao": "0",
       "PLANTA": "parana3.pdf",
       "link": "https://ar-vr.online/rio/rio7809325928prn3m/"
@@ -24,7 +24,7 @@
       "name": "Parana 4x1",
       "imageinfo": ["parana4x1.png", "parana4x1p.png" ,"experienciacell.png"],
       "tamanho": "C 3,95M, L 2,35M, P 1,00M",
-      "PRECO": "0",
+      "PRECO": "16.800,00",
       "Promocao": "0",
       "PLANTA": "parana4x1.pdf",
         "link":"https://ar-vr.online/rio/rio4983695prn4x1m/"
@@ -33,7 +33,7 @@
       "name": "Parana 4x130",
       "imageinfo": ["parana4x130.png", "parana4x130p.png" ,"experienciacell.png"],
       "tamanho": "C 3,96M, L 2,36M, P 1,30M",
-      "PRECO": "0",
+      "PRECO": "17.000,00",
       "Promocao": "0",
       "PLANTA": "parana4x130.pdf",
         "link":"https://ar-vr.online/rio/rio6177929179prn4x130m/"
@@ -42,7 +42,7 @@
       "name": "Parana 5",
       "imageinfo": ["parana5.png", "parana5p.png","experienciacell.png"],
       "tamanho": "C 4,93M, L 2,72M, P 1,30M",
-      "PRECO": "0",
+      "PRECO": "20.200,00",
       "Promocao": "0",
       "PLANTA": "parana5.pdf",
         "link":"https://ar-vr.online/rio/rio768646prn5m/"
@@ -51,7 +51,7 @@
       "name": "Parana 6",
       "imageinfo": ["parana6.png", "parana6p.png","experienciacell.png"],
       "tamanho": "C 6,00M, L 3,00M, P 1,30M",
-      "PRECO": "0",
+      "PRECO": "23.250,00",
       "Promocao": "0",
       "PLANTA": "parana6.pdf",
         "link":"https://ar-vr.online/rio/rio253873973prn6m/"
@@ -60,7 +60,7 @@
       "name": "Parana 7",
       "imageinfo": ["parana7.png", "parana7p.png","experienciacell.png"],
       "tamanho": "C 6,97M, L 3,42M, P 1,40M",
-      "PRECO": "0",
+      "PRECO": "29.600,00",
       "Promocao": "0",
       "PLANTA": "parana7.pdf",
         "link":"https://ar-vr.online/rio/rio168716781371prn7m/"
@@ -69,7 +69,7 @@
       "name": "Parana 8",
       "imageinfo": ["parana8.png", "parana8p.png" ,"experienciacell.png"],
       "tamanho": "C 7,97M, L 3,89M, P 1,40M",
-      "PRECO": "0",
+      "PRECO": "34.500,00",
       "Promocao": "0",
       "PLANTA": "parana8.pdf",
         "link":"https://ar-vr.online/rio/rio6819792397prn8m/"
@@ -78,10 +78,107 @@
       "name": "Parana 10",
       "imageinfo": ["parana10.png", "parana10p.png","experienciacell.png"],
       "tamanho": "C 9,98M, L 4,06M P 1,40M",
-      "PRECO": "0",
-      "Promocao": "10.000,00",
+      "PRECO": "42.000,00",
+      "Promocao": "0",
       "PLANTA": "parana10.pdf",
         "link":"https://ar-vr.online/rio/rio56187prn10m/"
+    }
+  ],
+  "materias":["motor.webp", "valvula.webp", "led.webp", "hidro.webp","hidro2.webp", "cabo.webp", "esfrega.webp","cabo2.webp", "peneira.webp", "fliuto.webp" ]
+},
+{
+  "id": 2,
+  "name": "Rio Guaporé",
+  "descricao": "O Rio Paraná proporciona o ambiente perfeito para uma experiência exclusiva, segura e completa. Aqui, a família e os amigos podem desfrutar de momentos descontraídos no SPA ou na Prainha, desfrutando plenamente da área de lazer.",
+  "image": "guapore7-2.png",
+  "imageinfo": "paranaweb.png",
+  "imageC": [
+    "fotoguapore01.jpg",
+    "fotoguapore02.jpg",
+    "fotoguapore03.jpg",
+    "fotoguapore04.jpg"
+  ],
+  "info": [
+    {
+      "name": "Rio Guaporé 3",
+      "imageinfo": ["guapore3-2.png", "guapore3.png","experienciacell.png"],
+      "tamanho": "C 3,49, L 1,80M, P 0,80M",
+      "PRECO": "14.000,00",
+      "Promocao": "0",
+      "PLANTA": "guapore3.pdf",
+      "link": "https://ar-vr.online/rio/rio16874341gpr3m/"
+    },
+
+   
+    {
+      "name": "Rio Guaporé 4",
+      "imageinfo": ["guapore4-1.png", "guapore4.png","experienciacell.png"],
+      "tamanho": "C 4,08M, L 2,04M, P 1,06M",
+      "PRECO": "15.500,00",
+      "Promocao": "0",
+      "PLANTA": "guapore4.pdf",
+        "link":"https://ar-vr.online/rio/rio24617678gpr4m/"
+    },
+    {
+      "name": "Rio Guaporé 5",
+      "imageinfo": ["guapore5-2.png", "guapore5.png","experienciacell.png"],
+      "tamanho": "C 5,05M, L 2,45M, P 1,26M",
+      "PRECO": "19.000,00",
+      "Promocao": "0",
+      "PLANTA": "guapore5.pdf",
+        "link":"https://ar-vr.online/rio/rio7568657465gpr5m/"
+    },
+    {
+      "name": "Rio Guaporé 6",
+      "imageinfo": ["guapore6-1.png", "guapore6.png","experienciacell.png"],
+      "tamanho": "C 6,03M, L 2,60M, P 1,36M",
+      "PRECO": "22.200,00",
+      "Promocao": "0",
+      "PLANTA": "guapore6.pdf",
+        "link":"https://ar-vr.online/rio/rio86574457gpr6m/"
+    },
+    {
+      "name": "Rio Guaporé 7",
+      "imageinfo": ["guapore7-2.png", "guapore7.png" ,"experienciacell.png"],
+      "tamanho": "C 7,00M, L 2,80M, P 1,40M",
+      "PRECO": "26.800,00",
+      "Promocao": "0",
+      "PLANTA": "guapore7.pdf",
+        "link":"https://ar-vr.online/rio/rio875764634gpr7m/"
+    },
+    {
+      "name": "Rio Guaporé 8",
+      "imageinfo": ["guapore8-1.png", "guapore8.png","experienciacell.png"],
+      "tamanho": "C 8,00M, L 3,50M P 1,40M",
+      "PRECO": "32.200,00",
+      "Promocao": "0",
+      "PLANTA": "guapore8.pdf",
+        "link":"https://ar-vr.online/rio/rio546545y76gpr8m/"
+    }
+  ],
+  "materias":["motor.webp", "valvula.webp", "led.webp", "hidro.webp","hidro2.webp", "cabo.webp", "esfrega.webp","cabo2.webp", "peneira.webp", "fliuto.webp" ]
+},
+{
+  "id": 3,
+  "name": "Rio Guaiba 3",
+  "image": "guaiba-3.png",
+  "descricao": "O Rio Guaíba oferece o cenário ideal para uma experiência exclusiva, segura e completa. Neste local, famílias e amigos podem desfrutar de momentos descontraídos no SPA ou na Prainha, aproveitando plenamente as instalações de lazer.",
+  "imageinfo": "guaiba-3i.png",
+  "imageC": [
+    "fotoguaiba1.jpg",
+    "fotoguaiba2.jpg",
+    "fotoguaiba3.jpg"
+ 
+  ],
+  "info": [
+    {
+      "name": "Rio Guaiba",
+      "imageinfo": ["guaiba-3.png", "guaiba-3q.png","experienciacell.png"],
+      "tamanho": "C 6,00, L 2.50, P 1.50",
+      "PRECO": "14.000,00",
+      "Promocao": "0",
+      "PLANTA": "plantarioguaiba.pdf",
+      "link": "https://ar-vr.online/rio/rio3287239811gb/"
     }
   ],
   "materias":["motor.webp", "valvula.webp", "led.webp", "hidro.webp","hidro2.webp", "cabo.webp", "esfrega.webp","cabo2.webp", "peneira.webp", "fliuto.webp" ]

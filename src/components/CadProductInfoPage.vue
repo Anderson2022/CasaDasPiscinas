@@ -97,9 +97,9 @@ watchEffect(() => {
         </div>
       </div>
     </div>
-    <div class="flex flex-col lg:h-115vh lg:flex-row md:flex-col">
+    <div class="flex flex-col lg:flex-row md:flex-col">
       <!-- Div 3 (bottom left) -->
-      <div class="flex-1 lg:h-100vh w-90vw p-3">
+      <div class="flex-1 lg:w-1/2 md:w-full p-3 md:relative">
         <h2
           class="text-4xl font-bold text-cyan-500 mt-8 pb-4 border-b-2 border-gray-400 text-center"
         >
@@ -110,7 +110,7 @@ watchEffect(() => {
         <p class="text-black ml-8">02 pontos de hidromassagem</p>
         <p class="text-black ml-8">led</p>
 
-        <div class="">
+        <div class="relative overflow-hidden">
           <p class="text-justify ml-8">
             <small>
               Os preços acima são completos: Piscina, Filtro, Kit Aspiração Total, Parte Hidráulica
@@ -136,14 +136,15 @@ watchEffect(() => {
               Os preços acima podem sofrer alterações sem aviso prévio.
             </small>
           </div>
-        </div>
-        <div>
+             <div>
           <CardProductDetallPage :item="props.item" />
         </div>
+        </div>
+     
       </div>
 
       <!-- Div 4 (bottom right) -->
-      <div class="flex-1 lg:w-90vw 0">
+      <div class="flex-1 lg:w-1/2 md:w-full">
         <div
           v-if="item && item.materias && item.materias.length > 0"
           class="flex items-center justify-center mt-4"

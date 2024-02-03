@@ -49,7 +49,7 @@ const baixarPDF = (PLANTA: string) => {
 <template>
   <div>
     <!-- Botão Quadrado -->
-    <div class="w-screen flex items-center justify-center p-8">
+    <div class=" flex items-center justify-center p-8 md:absolute">
       <button
         class="rounded-md bg-white text-black p-2 px-4 focus:outline-none w-48 h-48 shadow-2xl"
         @click="abrirModal"
