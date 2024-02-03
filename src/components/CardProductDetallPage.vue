@@ -1,13 +1,9 @@
 <script setup lang="ts">
-import { ref, onMounted, defineProps  } from 'vue'
-
-interface EstadosItens {
-  [key: number]: boolean;
-}
+import { ref, onMounted, defineProps } from 'vue'
 
 const mostrarModal = ref(false)
+const mostrarSegundaDiv = ref(true)
 const isDesktop = ref(false)
-const estadosItens = ref<EstadosItens>({})
 
 const abrirModal = () => {
   mostrarModal.value = true
@@ -17,10 +13,9 @@ const fecharModal = () => {
   mostrarModal.value = false
 }
 
-const toggleModalItem = (itemId: number) => {
-  estadosItens.value[itemId] = !estadosItens.value[itemId]
+const toggleSegundaDiv = () => {
+  mostrarSegundaDiv.value = !mostrarSegundaDiv.value
 }
-
 const props = defineProps(['item','subItem'])
 
 onMounted(() => {
@@ -32,6 +27,7 @@ onMounted(() => {
     isDesktop.value = window.innerWidth >= 1024
   })
 })
+
 
 const baixarPDF = (PLANTA: string) => {
   // Obtém o nome do arquivo PDF
@@ -48,6 +44,7 @@ const baixarPDF = (PLANTA: string) => {
   document.body.removeChild(linkDownload)
 }
 </script>
+
 
 <template>
   <div>
@@ -82,10 +79,11 @@ const baixarPDF = (PLANTA: string) => {
               <div
                 class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-x-4 gap-y-28 lg:gap-y-16"
               >
+                <!-- saislfhsdkjgkjahsdjkgdhsd -->
                 <div v-for="(subItem, index) in props.item.info" :key="index">
                   <div
                     class="relative group h-48 flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md"
-                    @click="toggleModalItem(index)"
+                    @click="toggleSegundaDiv"
                   >
                     <a href="#" class="block">
                       <div class="h-9">
@@ -137,10 +135,6 @@ const baixarPDF = (PLANTA: string) => {
                         </div>
                       </div>
                     </a>
-                  </div>
-
-                  <div v-if="mostrarModal && estadosItens[index]" class="absolute inset-0 z-40">
-                    <!-- Conteúdo da segunda div -->
                   </div>
                 </div>
               </div>
