@@ -13,17 +13,19 @@
   "info": [
     {
       "name": "Parana 3",
-      "imageinfo": ["parana3.png", "parana3p.png"],
+      "imageinfo": ["parana3.png", "parana3p.png","experienciacell.png"],
       "tamanho": "C 3,00M, L 1,79M, P 1,20M",
-      "PRECO": "0",
+      "PRECO": "16.000,00",
       "Promocao": "0",
-      "PLANTA": "parana3.pdf"
+      "PLANTA": "parana3.pdf",
+      "link": "https://ar-vr.online/rio/rio56187prn10m/"
     },
     {
       "name": "Parana 4x1",
       "imageinfo": ["parana4x1.png", "parana4x1p.png"],
       "tamanho": "C 3,95M, L 2,35M, P 1,00M",
       "PRECO": "0",
+      "Promocao": "0",
       "PLANTA": "parana4x1.pdf"
     },
     {
@@ -31,6 +33,7 @@
       "imageinfo": ["parana4x130.png", "parana4x130p.png"],
       "tamanho": "C 3,96M, L 2,36M, P 1,30M",
       "PRECO": "0",
+      "Promocao": "0",
       "PLANTA": "parana4x130.pdf"
     },
     {
@@ -38,6 +41,7 @@
       "imageinfo": ["parana5.png", "parana5p.png"],
       "tamanho": "C 4,93M, L 2,72M, P 1,30M",
       "PRECO": "0",
+      "Promocao": "0",
       "PLANTA": "parana5.pdf"
     },
     {
@@ -45,6 +49,7 @@
       "imageinfo": ["parana6.png", "parana6p.png"],
       "tamanho": "C 6,00M, L 3,00M, P 1,30M",
       "PRECO": "0",
+      "Promocao": "0",
       "PLANTA": "parana6.pdf"
     },
     {
@@ -52,6 +57,7 @@
       "imageinfo": ["parana7.png", "parana7p.png"],
       "tamanho": "C 6,97M, L 3,42M, P 1,40M",
       "PRECO": "0",
+      "Promocao": "0",
       "PLANTA": "parana7.pdf"
     },
     {
@@ -59,6 +65,7 @@
       "imageinfo": ["parana8.png", "parana8p.png"],
       "tamanho": "C 7,97M, L 3,89M, P 1,40M",
       "PRECO": "0",
+      "Promocao": "0",
       "PLANTA": "parana8.pdf"
     },
     {
@@ -66,8 +73,10 @@
       "imageinfo": ["parana10.png", "parana10p.png"],
       "tamanho": "C 9,98M, L 4,06M P 1,40M",
       "PRECO": "0",
+      "Promocao": "10.000,00",
       "PLANTA": "parana10.pdf"
     }
-  ]
+  ],
+  "materias":["motor.webp", "valvula.webp", "led.webp", "hidro.webp","hidro2.webp", "cabo.webp", "esfrega.webp","cabo2.webp", "peneira.webp", "fliuto.webp" ]
 }
 ]

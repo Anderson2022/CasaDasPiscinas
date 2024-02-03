@@ -22,6 +22,7 @@ interface ProductItem {
     PRECO: string;
     PLANTA: string;
   }[];
+  materias: string[];
 }
 
 
