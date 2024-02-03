@@ -18,63 +18,70 @@
       "PRECO": "16.000,00",
       "Promocao": "0",
       "PLANTA": "parana3.pdf",
-      "link": "https://ar-vr.online/rio/rio56187prn10m/"
+      "link": "https://ar-vr.online/rio/rio7809325928prn3m/"
     },
     {
       "name": "Parana 4x1",
-      "imageinfo": ["parana4x1.png", "parana4x1p.png"],
+      "imageinfo": ["parana4x1.png", "parana4x1p.png" ,"experienciacell.png"],
       "tamanho": "C 3,95M, L 2,35M, P 1,00M",
       "PRECO": "0",
       "Promocao": "0",
-      "PLANTA": "parana4x1.pdf"
+      "PLANTA": "parana4x1.pdf",
+        "link":"https://ar-vr.online/rio/rio4983695prn4x1m/"
     },
     {
       "name": "Parana 4x130",
-      "imageinfo": ["parana4x130.png", "parana4x130p.png"],
+      "imageinfo": ["parana4x130.png", "parana4x130p.png" ,"experienciacell.png"],
       "tamanho": "C 3,96M, L 2,36M, P 1,30M",
       "PRECO": "0",
       "Promocao": "0",
-      "PLANTA": "parana4x130.pdf"
+      "PLANTA": "parana4x130.pdf",
+        "link":"https://ar-vr.online/rio/rio6177929179prn4x130m/"
     },
     {
       "name": "Parana 5",
-      "imageinfo": ["parana5.png", "parana5p.png"],
+      "imageinfo": ["parana5.png", "parana5p.png","experienciacell.png"],
       "tamanho": "C 4,93M, L 2,72M, P 1,30M",
       "PRECO": "0",
       "Promocao": "0",
-      "PLANTA": "parana5.pdf"
+      "PLANTA": "parana5.pdf",
+        "link":"https://ar-vr.online/rio/rio768646prn5m/"
     },
     {
       "name": "Parana 6",
-      "imageinfo": ["parana6.png", "parana6p.png"],
+      "imageinfo": ["parana6.png", "parana6p.png","experienciacell.png"],
       "tamanho": "C 6,00M, L 3,00M, P 1,30M",
       "PRECO": "0",
       "Promocao": "0",
-      "PLANTA": "parana6.pdf"
+      "PLANTA": "parana6.pdf",
+        "link":"https://ar-vr.online/rio/rio253873973prn6m/"
     },
     {
       "name": "Parana 7",
-      "imageinfo": ["parana7.png", "parana7p.png"],
+      "imageinfo": ["parana7.png", "parana7p.png","experienciacell.png"],
       "tamanho": "C 6,97M, L 3,42M, P 1,40M",
       "PRECO": "0",
       "Promocao": "0",
-      "PLANTA": "parana7.pdf"
+      "PLANTA": "parana7.pdf",
+        "link":"https://ar-vr.online/rio/rio168716781371prn7m/"
     },
     {
       "name": "Parana 8",
-      "imageinfo": ["parana8.png", "parana8p.png"],
+      "imageinfo": ["parana8.png", "parana8p.png" ,"experienciacell.png"],
       "tamanho": "C 7,97M, L 3,89M, P 1,40M",
       "PRECO": "0",
       "Promocao": "0",
-      "PLANTA": "parana8.pdf"
+      "PLANTA": "parana8.pdf",
+        "link":"https://ar-vr.online/rio/rio6819792397prn8m/"
     },
     {
       "name": "Parana 10",
-      "imageinfo": ["parana10.png", "parana10p.png"],
+      "imageinfo": ["parana10.png", "parana10p.png","experienciacell.png"],
       "tamanho": "C 9,98M, L 4,06M P 1,40M",
       "PRECO": "0",
       "Promocao": "10.000,00",
-      "PLANTA": "parana10.pdf"
+      "PLANTA": "parana10.pdf",
+        "link":"https://ar-vr.online/rio/rio56187prn10m/"
     }
   ],
   "materias":["motor.webp", "valvula.webp", "led.webp", "hidro.webp","hidro2.webp", "cabo.webp", "esfrega.webp","cabo2.webp", "peneira.webp", "fliuto.webp" ]
