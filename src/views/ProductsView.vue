@@ -2,6 +2,8 @@
 import { ref, onMounted, onBeforeUnmount } from 'vue';
 import { useRoute } from 'vue-router';
 import jsonData from '../components/product.json';
+import jsonData2 from '../components/productLux.json';
+import jsonData3 from '../components/productSpa.json';
 
 import HeaderPage from '@/components/HeaderPage.vue'
 import CarrocelProductsPage from '@/components/CarrocelProductsPage.vue'
@@ -50,7 +52,9 @@ onMounted(() => {
 });
 
 const fetchData = (id: number | null) => {
-  const foundItemData: ProductItem | undefined = jsonData.find((item) => item.id === id);
+
+  const foundItemData: ProductItem | undefined =
+  jsonData.concat(jsonData2, jsonData3).find((item) => item.id === id);
 
   if (foundItemData !== undefined) {
     foundItem.value = foundItemData;

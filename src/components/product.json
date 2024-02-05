@@ -182,5 +182,261 @@
     }
   ],
   "materias":["motor.webp", "valvula.webp", "led.webp", "hidro.webp","hidro2.webp", "cabo.webp", "esfrega.webp","cabo2.webp", "peneira.webp", "fliuto.webp" ]
+},
+{
+  "id": 4,
+  "name": "Rio Tapajós",
+  "image": "tapajos9.png",
+  "descricao": "O Rio Tapajós proporciona o cenário perfeito para uma experiência exclusiva, segura e completa. Neste ambiente, famílias e amigos podem desfrutar de momentos descontraídos ",
+  "imageinfo": "guaiba-3i.png",
+  "imageC": [
+    "tapajos-1.jpg",
+    "tapajos-2.jpg",
+    "tapajos-4.jpg"
+ 
+  ],
+  "info": [
+    {
+      "name": "RiO Tapajós 10",
+      "imageinfo": ["tapajos10.png", "tapajos10p.png","experienciacell.png"],
+      "tamanho": "C 10,00, L 4.00, P 1.40",
+      "PRECO": "49.000,00",
+      "Promocao": "0",
+      "PLANTA": "tapajos10.pdf",
+      "link": "https://ar-vr.online/rio/rio156461766864tpj10m/"
+    },
+    {
+      "name": "RiO Tapajós 9",
+      "imageinfo": ["tapajos9.png", "tapajos9p.png","experienciacell.png"],
+      "tamanho": "C 9.00, L 3.50, P 1.40",
+      "PRECO": "40.000,00",
+      "Promocao": "0",
+      "PLANTA": "tapajos9.pdf",
+      "link": "https://ar-vr.online/rio/rio134946153tpj9m/"
+    },
+    {
+      "name": "RiO Tapajós 8",
+      "imageinfo": ["tapajos8.png", "tapajos8p.png","experienciacell.png"],
+      "tamanho": "C 8,00, L 3.00, P 1.40",
+      "PRECO": "34.000,00",
+      "Promocao": "0",
+      "PLANTA": "tapajos8.pdf",
+      "link": "https://ar-vr.online/rio/rio146873872683tpj8m/"
+    },
+    {
+      "name": "RiO Tapajós 7",
+      "imageinfo": ["tapajos7.png", "tapajos7p.png","experienciacell.png"],
+      "tamanho": "C 7,00, L 2.75, P 1.40",
+      "PRECO": "29.000,00",
+      "Promocao": "0",
+      "PLANTA": "tapajos7.pdf",
+      "link": "https://ar-vr.online/rio/rio8757545425tpj7m/"
+    },
+    {
+      "name": "RiO Tapajós 6",
+      "imageinfo": ["tapajos6.png", "tapajos6p.png","experienciacell.png"],
+      "tamanho": "C 6,00, L 2.50, P 1.40",
+      "PRECO": "24.000,00",
+      "Promocao": "0",
+      "PLANTA": "tapajos6.pdf",
+      "link": "https://ar-vr.online/rio/r4304720tpj2023/"
+    },
+    {
+      "name": "RiO Tapajós 5",
+      "imageinfo": ["tapajos5.png", "tapajos5p.png","experienciacell.png"],
+      "tamanho": "C 5,00, L 2.20, P 1.40",
+      "PRECO": "21.200,00",
+      "Promocao": "0",
+      "PLANTA": "tapajos5.pdf",
+      "link": "https://ar-vr.online/rio/rio65474587tpj5m/"
+    },
+    {
+      "name": "RiO Tapajós 4",
+      "imageinfo": ["tapajos4.png", "tapajos4p.png","experienciacell.png"],
+      "tamanho": "C 4,00, L 2.00, P 1.30",
+      "PRECO": "18.000,00",
+      "Promocao": "0",
+      "PLANTA": "tapajos4.pdf",
+      "link": "https://ar-vr.online/rio/rio15782315tpj4m/"
+    },
+    {
+      "name": "RiO Tapajós 3x0,50",
+      "imageinfo": ["tapajos3x05-1.png", "tapajos3x0p.png","experienciacell.png"],
+      "tamanho": "C 3,20, L 1.71, P 0.50",
+      "PRECO": "16.000,00",
+      "Promocao": "0",
+      "PLANTA": "tapajos3x050.pdf",
+      "link": "https://ar-vr.online/rio/rio156186762tpj3x050/"
+    },
+    {
+      "name": "RiO Tapajós 3x2",
+      "imageinfo": ["tapajos3x2.png", "tapajos3x2p.png","experienciacell.png"],
+      "tamanho": "C 3,00, L 2.00, P 0.84",
+      "PRECO": "13.000,00",
+      "Promocao": "0",
+      "PLANTA": "tapajos3x2.pdf",
+      "link": "https://ar-vr.online/rio/rio50387594836tpj3x2m/"
+    },
+    {
+      "name": "RiO Tapajós 3",
+      "imageinfo": ["tapajos3-1-2.png", "tapajos3p.png","experienciacell.png"],
+      "tamanho": "C 3,00, L 1.80, P 1.30",
+      "PRECO": "14.200,00",
+      "Promocao": "0",
+      "PLANTA": "tapajos3x130.pdf",
+      "link": "https://ar-vr.online/rio/rio892283tpj3m/"
+    },
+    {
+      "name": "RiO Tapajós 2",
+      "imageinfo": ["tapajos2.png", "tapajos2p.png","experienciacell.png"],
+      "tamanho": "C 2,50, L 1.50, P 1.00",
+      "PRECO": "13.200,00",
+      "Promocao": "0",
+      "PLANTA": "tapajos2.pdf",
+      "link": "https://ar-vr.online/rio/rio2233543534tpj2m/"
+    }
+   
+  ],
+  "materias":["motor.webp", "valvula.webp", "led.webp", "hidro.webp","hidro2.webp", "cabo.webp", "esfrega.webp","cabo2.webp", "peneira.webp", "fliuto.webp" ]
+},
+{
+  "id": 5,
+  "name": "Rio Iguaçu",
+  "image": "iguacu-2.png",
+  "descricao": "O Rio Tapajós proporciona o cenário perfeito para uma experiência exclusiva, segura e completa. Neste ambiente, famílias e amigos podem desfrutar de momentos descontraídos ",
+  "imageinfo": "piscinas_iguacu-2.jpg",
+  "imageC": [
+    "piscinas_iguacu-2.jpg",
+    "Fotosnublado_5-Foto-scaled.jpg",
+    "Fotosnublado_1-Photo-scaled.jpg"
+ 
+  ],
+  "info": [
+    {
+      "name": "RiO Iguaçu",
+      "imageinfo": ["iguacu-2.png", "iguacu2.png","experienciacell.png"],
+      "tamanho": "C 6,00, L 3,50/3,0, P 1,40",
+      "PRECO": "35.200,00",
+      "Promocao": "0",
+      "PLANTA": "plantarioiguacu.pdf",
+      "link": "https://ar-vr.online/rio/rio16578462igc/"
+    }
+  ],
+  "materias":["motor.webp", "valvula.webp", "led.webp", "hidro.webp","hidro2.webp", "cabo.webp", "esfrega.webp","cabo2.webp", "peneira.webp", "fliuto.webp" ]
+},
+{
+  "id": 6,
+  "name": " Rio dos Sinos",
+  "image": "riodossinos66.png",
+  "descricao": "O Rio dos Sinos proporciona o cenário perfeito para uma experiência exclusiva, segura e completa. Neste ambiente, famílias e amigos podem desfrutar de momentos descontraídos ",
+  "imageinfo": "riodossinos4a.png",
+  "imageC": [
+    "linhadossinos-1536x647.jpg"
+ 
+  ],
+  "info": [
+    {
+      "name": " Rio dos Sinos 10",
+      "imageinfo": ["riodossinos10.png", "riodossinos10p.png","experienciacell.png"],
+      "tamanho": "C 10,00, L 4,22, P 1,40",
+      "PRECO": "58.000,00",
+      "Promocao": "0",
+      "PLANTA": "riodossinos10.pdf",
+      "link": "https://ar-vr.online/rio/rio1516872334710sns/"
+    },
+    {
+      "name": " Rio dos Sinos 8",
+      "imageinfo": ["riodossinos8.png", "riodossinos8p.png","experienciacell.png"],
+      "tamanho": "C 8,00, L 4,00, P 1,40",
+      "PRECO": "43.500,00",
+      "Promocao": "0",
+      "PLANTA": "riodossinos8.pdf",
+      "link": "https://ar-vr.online/rio/rio1568738338sn/"
+    },
+    {
+      "name": " Rio dos Sinos 7",
+      "imageinfo": ["riodossinos7.png", "riodossinos7p.png","experienciacell.png"],
+      "tamanho": "C 7,00, L 3,50, P 1,40",
+      "PRECO": "35.000,00",
+      "Promocao": "0",
+      "PLANTA": "riodossinos7.pdf",
+      "link": "https://ar-vr.online/rio/rio397971939sn/"
+    },
+    {
+      "name": " Rio dos Sinos 6",
+      "imageinfo": ["riodossinos6.png", "riodossinos6p.png","experienciacell.png"],
+      "tamanho": "C 6,00, L 3,00, P 1,40",
+      "PRECO": "28.800,00",
+      "Promocao": "0",
+      "PLANTA": "riodossinos6.pdf",
+      "link": "https://ar-vr.online/rio/rio85795634975sn/"
+    },
+    {
+      "name": " Rio dos Sinos 5",
+      "imageinfo": ["riodossinos5.png", "riodossinos5p.png","experienciacell.png"],
+      "tamanho": "C 5,00, L 2,50, P 1,40",
+      "PRECO": "24.200,00",
+      "Promocao": "0",
+      "PLANTA": "riodossinos5.pdf",
+      "link": "https://ar-vr.online/rio/rio129839987119sn/"
+    },
+    {
+      "name": " Rio dos Sinos 4",
+      "imageinfo": ["riodossinos4.png", "riodossinos4p.png","experienciacell.png"],
+      "tamanho": "C 4,00, L 2,00, P 1,40",
+      "PRECO": "19.500,00",
+      "Promocao": "0",
+      "PLANTA": "riodossinos4.pdf",
+      "link": "https://ar-vr.online/rio/rio42872639392sn/"
+    }
+  ],
+  "materias":["motor.webp", "valvula.webp", "led.webp", "hidro.webp","hidro2.webp", "cabo.webp", "esfrega.webp","cabo2.webp", "peneira.webp", "fliuto.webp" ]
+},
+{
+  "id": 7,
+  "name": "Rio Taquari",
+  "image": "taquarisit.png",
+  "descricao": "O Rio Taquari proporciona o cenário perfeito para uma experiência exclusiva, segura e completa. Neste ambiente, famílias e amigos podem desfrutar de momentos descontraídos ",
+  "imageinfo": "riodossinos4a.png",
+  "imageC": [
+    "linhadossinos-1536x647.jpg"
+ 
+  ],
+  "info": [
+    {
+      "name": " Rio Taquari",
+      "imageinfo": ["taquarifig-2.png.png", "taquarifig-2p.png","experienciacell.png"],
+      "tamanho": "C 6,00, L 2,50, P 1,40",
+      "PRECO": "58.000,00",
+      "Promocao": "0",
+      "PLANTA": "riotaquari.pdf",
+      "link": "https://ar-vr.online/rio/ar214387138tqr/"
+    }
+  ],
+  "materias":["motor.webp", "valvula.webp", "led.webp", "hidro.webp","hidro2.webp", "cabo.webp", "esfrega.webp","cabo2.webp", "peneira.webp", "fliuto.webp" ]
+},
+{
+  "id": 8,
+  "name": "Rio Hualai",
+  "image": "hualai.png",
+  "descricao": "O Rio Hualai proporciona o cenário perfeito para uma experiência exclusiva, segura e completa. Neste ambiente, famílias e amigos podem desfrutar de momentos descontraídos ",
+  "imageinfo": "fighualai-e1675721131763.jpg",
+  "imageC": [
+    "tophualai-1-1536x647.jpg"
+ 
+  ],
+  "info": [
+    {
+      "name": " Rio Hualai",
+      "imageinfo": ["hualai.png", "hualaip.png","experienciacell.png"],
+      "tamanho": "C 3,23, L 1,69, P 0,50",
+      "PRECO": "58.000,00",
+      "Promocao": "0",
+      "PLANTA": "riohualai.pdf",
+      "link": "https://ar-vr.online/rio/rio985643989hl/"
+    }
+  ],
+  "materias":["motor.webp", "valvula.webp", "led.webp", "hidro.webp","hidro2.webp", "cabo.webp", "esfrega.webp","cabo2.webp", "peneira.webp", "fliuto.webp" ]
 }
+
 ]

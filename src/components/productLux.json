@@ -1,8 +1,62 @@
 [
     {
-        "id": 1,
-        "name": "Gion",
-        "image": "RioLux_Gion-2-1536x760.jpg"
+        "id": 7,
+        "name": "Jordan",
+        "image": "RioLux_Gion-2-1536x760.jpg",
+        "descricao": "O Rio Jordan proporciona o cenário perfeito para uma experiência exclusiva, segura e completa. Neste ambiente, famílias e amigos podem desfrutar de momentos descontraídos ",
+        "imageinfo": "riodossinos4a.png",
+        "imageC": [
+          "linhadossinos-1536x647.jpg"
+       
+        ],
+        "info": [
+          {
+            "name": " Rio dos Sinos 10",
+            "imageinfo": ["riodossinos10.png", "riodossinos10p.png","experienciacell.png"],
+            "tamanho": "C 10,00, L 4,22, P 1,40",
+            "PRECO": "58.000,00",
+            "Promocao": "0",
+            "PLANTA": "riodossinos10.pdf",
+            "link": "https://ar-vr.online/rio/rio1516872334710sns/"
+          },
+          {
+            "name": " Rio dos Sinos 10",
+            "imageinfo": ["riodossinos10.png", "riodossinos10p.png","experienciacell.png"],
+            "tamanho": "C 10,00, L 4,22, P 1,40",
+            "PRECO": "58.000,00",
+            "Promocao": "0",
+            "PLANTA": "riodossinos10.pdf",
+            "link": "https://ar-vr.online/rio/rio1516872334710sns/"
+          },
+          {
+            "name": " Rio dos Sinos 10",
+            "imageinfo": ["riodossinos10.png", "riodossinos10p.png","experienciacell.png"],
+            "tamanho": "C 10,00, L 4,22, P 1,40",
+            "PRECO": "58.000,00",
+            "Promocao": "0",
+            "PLANTA": "riodossinos10.pdf",
+            "link": "https://ar-vr.online/rio/rio1516872334710sns/"
+          },
+          {
+            "name": " Rio dos Sinos 10",
+            "imageinfo": ["riodossinos10.png", "riodossinos10p.png","experienciacell.png"],
+            "tamanho": "C 10,00, L 4,22, P 1,40",
+            "PRECO": "58.000,00",
+            "Promocao": "0",
+            "PLANTA": "riodossinos10.pdf",
+            "link": "https://ar-vr.online/rio/rio1516872334710sns/"
+          },
+          {
+            "name": " Rio dos Sinos 10",
+            "imageinfo": ["riodossinos10.png", "riodossinos10p.png","experienciacell.png"],
+            "tamanho": "C 10,00, L 4,22, P 1,40",
+            "PRECO": "58.000,00",
+            "Promocao": "0",
+            "PLANTA": "riodossinos10.pdf",
+            "link": "https://ar-vr.online/rio/rio1516872334710sns/"
+          }
+
+        ]
     },
     {
         "id": 2,
@@ -18,42 +72,17 @@
         "id": 4,
         "name": "Prainha",
         "image": "rioluxspa_image.png"
-    },
+    }
 
 
 
 
     
 
-{
-  "id": 3,
-  "name": "Rio Guaiba 3",
-  "image": "guaiba-3.png"
-},
-{
-  "id": 4,
-  "name": "Rio Tapajós",
-  "image": "tapajos9.png"
-},
-{
-  "id": 5,
-  "name": "Rio Iguaçu",
-  "image": "iguacu-2.png"
-},
-{
-  "id": 6,
-  "name": "Rio Rio dos Sinos",
-  "image": "riodossinos66.png"
-},
-{
-  "id": 7,
-  "name": "Rio Taquari",
-  "image": "taquarisit.png"
-},
-{
-  "id": 8,
-  "name": "Rio Hualai",
-  "image": "hualai.png"
-}
+
+
+
+
+
 
 ]
