@@ -1,21 +1,37 @@
 [
     {
-        "id": 1,
-        "name": "Moorea",
-        "image": "moorea.png",
-        "color": "orange"
-    },
-    {
-        "id": 2,
-        "name": "Bermudas",
-        "image": "bermudas.png",
-        "color": "orange"
-    },
-    {
-        "id": 3,
-        "name": "Azul",
-        "image": "azul.png",
-        "color": "orange"
-    }
+      "id": 13,
+      "name": "Lux Spa",
+      "image": "rioluxspa.jpg",
+      "descricao": "O Rio Lux Spa proporciona o cenário perfeito para uma experiência exclusiva, segura e completa. Neste ambiente, famílias e amigos podem desfrutar de momentos descontraídos ",
+      "imageinfo": "spa.webp",
+      "imageC": [
+        "edem3.png",
+        "edem2.png"
+      ],
+      "info": [
+        {
+          "name": " Lux Spa",
+          "imageinfo": ["spa1.webp", "experienciacell.png","experienciacell.png"],
+          "tamanho": "C 1,96, L 1,96, P 0,91",
+          "PRECO": "20a.000,00",
+          "Promocao": "0",
+          "PLANTA": "planta_luxspa2.pdf",
+          "link": ""
+        },
+        {
+          "name": " Lux Spa",
+          "imageinfo": ["spa.webp", "experienciacell.png","experienciacell.png"],
+          "tamanho": "C 2,52, L 2,52, P 0,91",
+          "PRECO": "24.000,00",
+          "Promocao": "0",
+          "PLANTA": "planta_luxspa25m.pdf",
+          "link": ""
+        }
+        
+      ],
+      "materias":["motor.webp", "valvula.webp", "led.webp", "hidro.webp","hidro2.webp", "cabo.webp", "esfrega.webp","cabo2.webp", "peneira.webp", "fliuto.webp" ]
+ 
+  }
 
 ]

@@ -23,19 +23,18 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="sm:flex-row">
+  <div class="sm:flex-row xl:w-screen">
     <div
-      class="mt-6 h-96 sm:h-56 w-screen border-current relative flex items-center flex-col sm:flex-row"
+      class="mt-6 h-96 sm:h-56 w-screen border-current flex items-center flex-col sm:flex-row xl:w-screen"
     >
-    <div class="w-96 items-center  justify-center flex">
-         <router-link to="/">
-        <img class="w-28 h-20 max-sm:w-32" :src="imageSrc" alt="Imagem" />
-      </router-link>
+      <div class="w-96 items-center xl:w-screen justify-center flex">
+        <router-link to="/">
+          <img class="w-28 h-20 max-sm:w-32" :src="imageSrc" alt="Imagem" />
+        </router-link>
+      </div>
 
-    </div>
-   
       <div
-        class="flex items-center justify-center sm:w-10rem h-10 max-h-32 mt-12 flex-col sm:flex-row sm:h-44 animated-element"
+        class="flex items-center justify-center -z-10 sm:w-10rem h-10 max-h-32 mt-12 flex-col sm:flex-row sm:h-44 xl:w-screen animated-element"
       >
         <button
           class="bg-blue-500 text-white px-4 py-2 mb-2 sm:mb-0 rounded-lg w-full sm:w-72 mx-1"
@@ -50,7 +49,7 @@ onMounted(() => {
         </button>
       </div>
 
-      <div class="flex w-72 items-center justify-center mt-12 animated-element">
+      <div class="flex w-72 items-center justify-center mt-12 animated-element xl:w-screen -z-10">
         <a
           :href="face"
           class="flex items-center justify-center bg-pink-500 text-white p-4 m-1 rounded-full"
@@ -67,7 +66,9 @@ onMounted(() => {
         </a>
       </div>
     </div>
-    <div class="text-sm text-gray-500 my-8 sm:text-center sm:justify-center animated-element">
+    <div
+      class="text-sm text-gray-500 my-8 sm:text-center sm:justify-center animated-element xl:w-screen"
+    >
       <h2 class="text-center">
         Copyright © 2024 Casa das Piscinas. Todos os direitos reservados.
       </h2>

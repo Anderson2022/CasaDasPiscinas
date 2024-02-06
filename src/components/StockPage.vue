@@ -70,7 +70,7 @@ onMounted(() => {
   </div>
 
   <div class="p-20 flex flex-wrap items-center justify-center animated-element">
-    <ProductCardLux v-for="produto1 in produtosLLux" :key="produto1.id" :produto1="produto1" />
+    <ProductCardLux v-for="produto in produtosLLux" :key="produto.id" :produto="produto" />
   </div>
 
   <div class="w-screen h-20 flex items-center justify-center bg-gray-100 animated-element">
@@ -80,7 +80,7 @@ onMounted(() => {
   </div>
 
   <div class="p-24 flex flex-wrap items-center justify-center animated-element">
-    <ProductCardLux v-for="produto1 in produtosSpa" :key="produto1.id" :produto1="produto1" />
+    <ProductCardLux v-for="produto in produtosSpa" :key="produto.id" :produto="produto" />
   </div>
 
   <!-- component -->

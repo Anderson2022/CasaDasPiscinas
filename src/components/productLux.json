@@ -1,88 +1,185 @@
 [
     {
-        "id": 7,
+        "id": 9,
         "name": "Jordan",
-        "image": "RioLux_Gion-2-1536x760.jpg",
+        "image": "jordan.jpg",
         "descricao": "O Rio Jordan proporciona o cenário perfeito para uma experiência exclusiva, segura e completa. Neste ambiente, famílias e amigos podem desfrutar de momentos descontraídos ",
-        "imageinfo": "riodossinos4a.png",
+        "imageinfo": "jordan.jpg",
         "imageC": [
-          "linhadossinos-1536x647.jpg"
-       
+          "edem3.png",
+          "edem2.png"
         ],
         "info": [
           {
-            "name": " Rio dos Sinos 10",
-            "imageinfo": ["riodossinos10.png", "riodossinos10p.png","experienciacell.png"],
-            "tamanho": "C 10,00, L 4,22, P 1,40",
-            "PRECO": "58.000,00",
+            "name": " Rio Jordan 4",
+            "imageinfo": ["jordan40.png", "","experienciacell.png"],
+            "tamanho": "C 3,99, L 1,96, P 1,12",
+            "PRECO": "40.000,00",
             "Promocao": "0",
-            "PLANTA": "riodossinos10.pdf",
-            "link": "https://ar-vr.online/rio/rio1516872334710sns/"
+            "PLANTA": "planta_luxjordan4m.pdf",
+            "link": ""
           },
           {
-            "name": " Rio dos Sinos 10",
-            "imageinfo": ["riodossinos10.png", "riodossinos10p.png","experienciacell.png"],
-            "tamanho": "C 10,00, L 4,22, P 1,40",
-            "PRECO": "58.000,00",
+            "name": " Rio Jordan 5",
+            "imageinfo": ["jordan5.png", "","experienciacell.png"],
+            "tamanho": "C 5,04, L 2,38, P 1,40",
+            "PRECO": "44.000,00",
             "Promocao": "0",
-            "PLANTA": "riodossinos10.pdf",
-            "link": "https://ar-vr.online/rio/rio1516872334710sns/"
+            "PLANTA": "planta_luxjordan5m.pdf",
+            "link": ""
           },
           {
-            "name": " Rio dos Sinos 10",
-            "imageinfo": ["riodossinos10.png", "riodossinos10p.png","experienciacell.png"],
-            "tamanho": "C 10,00, L 4,22, P 1,40",
-            "PRECO": "58.000,00",
+            "name": " Rio Jordan 6",
+            "imageinfo": ["jordan6.png", "","experienciacell.png"],
+            "tamanho": "C 6,02, L 2,80, P 1,40",
+            "PRECO": "55.000,00",
             "Promocao": "0",
-            "PLANTA": "riodossinos10.pdf",
-            "link": "https://ar-vr.online/rio/rio1516872334710sns/"
+            "PLANTA": "planta_luxjordan6m.pdf",
+            "link": ""
           },
           {
-            "name": " Rio dos Sinos 10",
-            "imageinfo": ["riodossinos10.png", "riodossinos10p.png","experienciacell.png"],
-            "tamanho": "C 10,00, L 4,22, P 1,40",
-            "PRECO": "58.000,00",
+            "name": " Rio Jordan 7",
+            "imageinfo": ["jordan7.png", "","experienciacell.png"],
+            "tamanho": "C 7,00, L 3,06, P 1,40",
+            "PRECO": "61.000,00",
             "Promocao": "0",
-            "PLANTA": "riodossinos10.pdf",
-            "link": "https://ar-vr.online/rio/rio1516872334710sns/"
+            "PLANTA": "planta_luxjordan7m.pdf",
+            "link": ""
           },
           {
-            "name": " Rio dos Sinos 10",
-            "imageinfo": ["riodossinos10.png", "riodossinos10p.png","experienciacell.png"],
-            "tamanho": "C 10,00, L 4,22, P 1,40",
-            "PRECO": "58.000,00",
+            "name": " Rio Jordan 8",
+            "imageinfo": ["jordan8.png", "","experienciacell.png"],
+            "tamanho": "C 7,98, L 3,50, P 1,40",
+            "PRECO": "77.000,00",
             "Promocao": "0",
-            "PLANTA": "riodossinos10.pdf",
-            "link": "https://ar-vr.online/rio/rio1516872334710sns/"
+            "PLANTA": "planta_luxjordan8m.pdf",
+            "link": ""
           }
-
-        ]
+          
+        ],
+        "materias":["motor.webp", "valvula.webp", "led.webp", "hidro.webp","hidro2.webp", "cabo.webp", "esfrega.webp","cabo2.webp", "peneira.webp", "fliuto.webp" ]
     },
     {
-        "id": 2,
-        "name": "Jordan",
-        "image": "jordam.jpg"
-    },
-    {
-        "id": 3,
+        "id": 11,
         "name": "Èden",
-        "image": "rioeden-1536x760.jpg"
+        "image": "rioeden-1536x760.jpg",
+        "descricao": "O Rio Èden proporciona o cenário perfeito para uma experiência exclusiva, segura e completa. Neste ambiente, famílias e amigos podem desfrutar de momentos descontraídos ",
+        "imageinfo": "edem.jpg",
+        "imageC": [
+          "edem3.png",
+          "edem2.png"
+        ],
+        "info": [
+          {
+            "name": " Rio Èden 4",
+            "imageinfo": ["eden4.png", "","experienciacell.png"],
+            "tamanho": "C 3,99, L 1,96, P 1,12",
+            "PRECO": "40.000,00",
+            "Promocao": "0",
+            "PLANTA": "planta_luxeden4m.pdf",
+            "link": ""
+          },
+          {
+            "name": " Rio Èden 5",
+            "imageinfo": ["eden5.png", "","experienciacell.png"],
+            "tamanho": "C 5,04, L 2,38, P 1,40",
+            "PRECO": "44.000,00",
+            "Promocao": "0",
+            "PLANTA": "planta_luxeden5m.pdf",
+            "link": ""
+          },
+          {
+            "name": " Rio Èden 6",
+            "imageinfo": ["eden6.png", "","experienciacell.png"],
+            "tamanho": "C 6,02, L 2,80, P 1,40",
+            "PRECO": "55.000,00",
+            "Promocao": "0",
+            "PLANTA": "planta_luxeden6m.pdf",
+            "link": ""
+          },
+          {
+            "name": " Rio Èden 7",
+            "imageinfo": ["eden7.png", "","experienciacell.png"],
+            "tamanho": "C 7,00, L 3,06, P 1,40",
+            "PRECO": "61.000,00",
+            "Promocao": "0",
+            "PLANTA": "planta_luxeden7m.pdf",
+            "link": ""
+          },
+          {
+            "name": " Rio Èden 8",
+            "imageinfo": ["eden8.png", "","experienciacell.png"],
+            "tamanho": "C 7,98, L 3,50, P 1,40",
+            "PRECO": "77.000,00",
+            "Promocao": "0",
+            "PLANTA": "planta_luxeden8m.pdf",
+            "link": ""
+          }
+          
+        ],
+        "materias":["motor.webp", "valvula.webp", "led.webp", "hidro.webp","hidro2.webp", "cabo.webp", "esfrega.webp","cabo2.webp", "peneira.webp", "fliuto.webp" ]
+   
     },
     {
-        "id": 4,
-        "name": "Prainha",
-        "image": "rioluxspa_image.png"
+        "id": 12,
+        "name": "Gion",
+        "image": "gion.jpg",
+        "descricao": "O Rio Gion proporciona o cenário perfeito para uma experiência exclusiva, segura e completa. Neste ambiente, famílias e amigos podem desfrutar de momentos descontraídos ",
+        "imageinfo": "gion.jpg",
+        "imageC": [
+          "edem3.png",
+          "edem2.png"
+        ],
+        "info": [
+          {
+            "name": " Rio Gion 4",
+            "imageinfo": ["gion4.png", "","experienciacell.png"],
+            "tamanho": "C 3,99, L 1,96, P 1,12",
+            "PRECO": "40.000,00",
+            "Promocao": "0",
+            "PLANTA": "planta_luxgion4m.pdf",
+            "link": ""
+          },
+          {
+            "name": " Rio Gion 5",
+            "imageinfo": ["Gions5.png", "","experienciacell.png"],
+            "tamanho": "C 5,04, L 2,38, P 1,40",
+            "PRECO": "44.000,00",
+            "Promocao": "0",
+            "PLANTA": "planta_luxgion5m.pdf",
+            "link": ""
+          },
+          {
+            "name": " Rio Gion 6",
+            "imageinfo": ["Gions6.png", "","experienciacell.png"],
+            "tamanho": "C 6,02, L 2,80, P 1,40",
+            "PRECO": "55.000,00",
+            "Promocao": "0",
+            "PLANTA": "planta_luxgion6m.pdf",
+            "link": ""
+          },
+          {
+            "name": " Rio Gion 7",
+            "imageinfo": ["Gions7.png", "","experienciacell.png"],
+            "tamanho": "C 7,00, L 3,06, P 1,40",
+            "PRECO": "61.000,00",
+            "Promocao": "0",
+            "PLANTA": "planta_luxgion7m.pdf",
+            "link": ""
+          },
+          {
+            "name": " Rio Gion 8",
+            "imageinfo": ["Gions8.png", "","experienciacell.png"],
+            "tamanho": "C 7,98, L 3,50, P 1,40",
+            "PRECO": "77.000,00",
+            "Promocao": "0",
+            "PLANTA": "planta_luxgion8m.pdf",
+            "link": ""
+          }
+          
+        ],
+        "materias":["motor.webp", "valvula.webp", "led.webp", "hidro.webp","hidro2.webp", "cabo.webp", "esfrega.webp","cabo2.webp", "peneira.webp", "fliuto.webp" ]
+   
     }
-
-
-
-
-    
-
-
-
-
-
-
 
 ]

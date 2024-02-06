@@ -49,7 +49,7 @@ const baixarPDF = (PLANTA: string) => {
 <template>
   <div>
     <!-- Botão Quadrado -->
-    <div class=" flex items-center justify-center p-8 md:absolute">
+    <div class=" flex items-center justify-center p-8 xl:relative">
       <button
         class="rounded-md bg-white text-black p-2 px-4 focus:outline-none w-48 h-48 shadow-2xl"
         @click="abrirModal"
@@ -104,15 +104,15 @@ const baixarPDF = (PLANTA: string) => {
 
                       <div class="flex flex-col">
                         <div
-                          class="md:px-8 md:pt- z-10 w-full h-auto flex flex-col md:flex-row px-8"
+                          class="md:px-8 md:pt- z-10 w-full h-auto flex flex-col md:flex-row px-8 xl:w-80 "
                         >
                           <img
                             v-if="isDesktop"
                             :src="`/imagen/parana/${subItem.imageinfo[1]}`"
                             :alt="`Imagem Desktop ${subItem.name}`"
-                            class="md:w-1/2 md:h-1/2"
+                            class="md:w-1/3 md:h-1/2"
                           />
-                          <div v-else class="md:w-1/2 bg-slate-600">
+                          <div v-else class="md:w-1/3 lg:[40%]  bg-slate-600 ">
                             <a :href="subItem.link">
                               <img
                                 :src="`/imagen/parana/${subItem.imageinfo[2]}`"
@@ -130,7 +130,7 @@ const baixarPDF = (PLANTA: string) => {
                             </button>
                           </div>
                         </div>
-                        <div class="w-full md:w-full flex items-center justify-center md:mt-7">
+                        <div class="w-full md:w-full flex items-center justify-center md:mt-7 xl:mt-1">
                           <div class="font-bold">{{ subItem.name }}</div>
                         </div>
                       </div>
