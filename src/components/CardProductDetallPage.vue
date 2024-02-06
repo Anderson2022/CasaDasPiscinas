@@ -69,7 +69,7 @@ const baixarPDF = (PLANTA: string) => {
         <div class="modal-content w-full h-full overflow-auto">
           <button
             @click="fecharModal"
-            class="mt-4 rounded-md bg-red-500 text-white p-2 px-4 focus:outline-none"
+            class="mt-4 rounded-md bg-[#5E0449] text-white p-2 px-4 focus:outline-none"
           >
             x
           </button>
@@ -88,7 +88,7 @@ const baixarPDF = (PLANTA: string) => {
                     <a href="#" class="block">
                       <div class="h-9">
                         <div
-                          class="absolute -top-0 lg:top-[-10%] left-[5%] z-40 group-hover:top-[-85%] group-hover:opacity-[0.9] duration-300 w-[90%] h-48 bg-red-500 rounded-xl justify-items-center align-middle"
+                          class="absolute -top-0 lg:top-[-10%] left-[5%] z-40 group-hover:top-[-85%] group-hover:opacity-[0.9] duration-300 w-[90%] h-48 bg-[#5E0449] rounded-xl justify-items-center align-middle"
                         >
                           <img
                             :src="`/imagen/parana/${subItem.imageinfo[0]}`"
