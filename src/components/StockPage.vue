@@ -2,12 +2,14 @@
 import { ref, onMounted } from 'vue'
 import ProductCard from './ProductCard.vue'
 import ProductCardLux from './ProductCardLux.vue'
+
 import pessoa from '../../src/assets/imagen/pessoa.jpg'
 import retrato from '../../src/assets/imagen/retrato.jpg'
 import vista from '../../src/assets/imagen/vista.jpg'
 import jsonPath from '../components/product.json'
 import jsonPathLux from '../components/productLux.json'
 import jsonPathSpa from '../components/productSpa.json'
+import jsonPathBan from '../components/productBanheira.json'
 import ScrollReveal from 'scrollreveal'
 import { Tooltip, initTE } from 'tw-elements'
 
@@ -20,7 +22,8 @@ interface Produto {
 
 const produtos = ref<Produto[]>([])
 const produtosLLux = ref<Produto[]>([])
-    const produtosSpa = ref<Produto[]>([])
+const produtosSpa = ref<Produto[]>([])
+const produtosBan = ref<Produto[]>([])
 
 const carregarJSON = async () => {
   try {
@@ -29,6 +32,8 @@ const carregarJSON = async () => {
     produtos.value = jsonPath
     produtosLLux.value = jsonPathLux
     produtosSpa.value = jsonPathSpa
+    produtosBan.value = jsonPathBan
+
     console.log(produtos.value)
   } catch (erro) {
     console.error('Erro ao carregar o arquivo JSON:', erro)
@@ -81,6 +86,16 @@ onMounted(() => {
 
   <div class="p-24 flex flex-wrap items-center justify-center animated-element">
     <ProductCardLux v-for="produto in produtosSpa" :key="produto.id" :produto="produto" />
+  </div>
+
+  <div class="w-screen h-20 flex items-center justify-center bg-gray-100 animated-element">
+    <h1 class="text-blue-500 font-bold italic text-4xl">
+      Rio <span class="text-pool-500">Banho</span>
+    </h1>
+  </div>
+
+  <div class="p-24 flex flex-wrap items-center justify-center animated-element">
+    <ProductCard v-for="produto in produtosBan" :key="produto.id" :produto="produto" />
   </div>
 
   <!-- component -->

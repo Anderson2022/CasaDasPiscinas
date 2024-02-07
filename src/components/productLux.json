@@ -2,9 +2,9 @@
     {
         "id": 9,
         "name": "Jordan",
-        "image": "jordan.jpg",
+        "image": "rioeden-1536x760.jpg",
         "descricao": "O Rio Jordan proporciona o cenário perfeito para uma experiência exclusiva, segura e completa. Neste ambiente, famílias e amigos podem desfrutar de momentos descontraídos ",
-        "imageinfo": "jordan.jpg",
+        "imageinfo": "jodan.jpg",
         "imageC": [
           "edem3.png",
           "edem2.png"
@@ -60,7 +60,7 @@
         "materias":["motor.webp", "valvula.webp", "led.webp", "hidro.webp","hidro2.webp", "cabo.webp", "esfrega.webp","cabo2.webp", "peneira.webp", "fliuto.webp" ]
     },
     {
-        "id": 11,
+        "id": 10,
         "name": "Èden",
         "image": "rioeden-1536x760.jpg",
         "descricao": "O Rio Èden proporciona o cenário perfeito para uma experiência exclusiva, segura e completa. Neste ambiente, famílias e amigos podem desfrutar de momentos descontraídos ",
@@ -121,9 +121,9 @@
    
     },
     {
-        "id": 12,
+        "id": 11,
         "name": "Gion",
-        "image": "gion.jpg",
+        "image": "rioeden-1536x760.jpg",
         "descricao": "O Rio Gion proporciona o cenário perfeito para uma experiência exclusiva, segura e completa. Neste ambiente, famílias e amigos podem desfrutar de momentos descontraídos ",
         "imageinfo": "gion.jpg",
         "imageC": [
