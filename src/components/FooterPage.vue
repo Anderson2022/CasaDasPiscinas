@@ -36,11 +36,13 @@ onMounted(() => {
       <div
         class="flex items-center justify-center -z-10 sm:w-10rem h-10 max-h-32 mt-12 flex-col sm:flex-row sm:h-44 xl:w-screen animated-element"
       >
-        <button
-          class="bg-blue-500 text-white px-4 py-2 mb-2 sm:mb-0 rounded-lg w-full sm:w-72 mx-1"
-        >
-          Faça seu Orçamento<i class="fas fa-envelope mx-2"></i>
-        </button>
+      <router-link to="/contact">
+  <button class="bg-blue-500 text-white px-4 py-2 mb-2 sm:mb-0 rounded-lg w-full sm:w-72 mx-1">
+    Faça seu Orçamento<i class="fas fa-envelope mx-2"></i>
+  </button>
+</router-link>
+
+
         <button class="bg-pink-500 text-white px-4 py-2 rounded-lg sm:w-72 mx-1">
           <a :href="whats" target="_blank">
             Faça seu Orçamento

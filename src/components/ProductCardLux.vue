@@ -2,7 +2,7 @@
 <template>
    <router-link :to="{ name: 'product', params: { id: produto.id }}" @click="handleClick">
     <div :class="`flex-shrink-0 m-6 relative overflow-hidden bg-[#80286C] rounded-lg max-w-xs shadow-lg`">
-      <img class="relative w-40" :src="`/imagen/${produto.image}`" :alt="produto.name">
+      <img class="relative w-40" :src="`/imagen/parana/${produto.image}`" :alt="produto.name">
       <div class="relative text-white px-6 pb-6 mt-6">
         <span class="block opacity-75 -mb-1">{{ produto.name }}</span>
         <div class="flex justify-between">

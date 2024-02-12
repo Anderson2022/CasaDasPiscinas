@@ -17,8 +17,8 @@
           "experienciacell.png",
           "experienciacell.png"
         ],
-        "tamanho": "C 1,96, L 1,96, P 0,91",
-        "PRECO": "20a.000,00",
+        "tamanho": "C 1,70m, L 1,60m, P 0,80m",
+        "PRECO": "20.000,00",
         "Promocao": "0",
         "PLANTA": "planta_luxspa2.pdf",
         "link": ""
@@ -58,8 +58,8 @@
           "experienciacell.png",
           "experienciacell.png"
         ],
-        "tamanho": "C 1,96, L 1,96, P 0,91",
-        "PRECO": "20a.000,00",
+        "tamanho": "C 1,80m, L 1,80m, P 0,93m",
+        "PRECO": "20.000,00",
         "Promocao": "0",
         "PLANTA": "planta_luxspa2.pdf",
         "link": ""
@@ -83,10 +83,10 @@
   },
   {
     "id": 16,
-    "name": "Lux Spa Safira",
-    "image": "safirass.png",
-    "descricao": "SPA de hidromassagem SAFIRA 4 lugares 1,70 x 1,60 x 0,80 gel coat-completa + base acoplada + aquecedor. As banheiras de hidromassagem são produzidas em fibra de vidro com acabamento em gel coat e a tecnologia skin coat, um material de alta durabilidade, longa vida útil. Dispositivos em inox; Motobomba silenciosa, blindada e com protetor térmico; Brilho e acabamento do gel coat com aditivo NPG (resistência e acabamento); tecnologia skin coat; Espessura e reforço; Sistema de abastecimento e antitransbordo (bica ladrão); Acionador eletrônico; aquqcedor 8000W.",
-    "imageinfo": "safira.png",
+    "name": "Lux Spa Rubi",
+    "image": "rubi2.png",
+    "descricao": "O SPA rubi 7 Lugares 2,10 x 2,10 x 0,95 gel coat-completa + base acoplada + aquecedor. Os SPAS de hidromassagem são produzidas em fibra de vidro com acabamento em gel coat e a tecnologia skin coat, um material de alta durabilidade, longa vida útil. Dispositivos em inox; Motobomba silenciosa, blindada e com protetor térmico; Brilho e acabamento do gel coat com aditivo NPG (resistência e acabamento); tecnologia skin coat; Espessura e reforço; Sistema de abastecimento e antitransbordo (bica ladrão); Acionador eletrônico; aquqcedor 8000W.",
+    "imageinfo": "rubi2.png",
     "imageC": [
       "edem3.png",
       "edem2.png"
@@ -95,7 +95,7 @@
       {
         "name": " Lux Spa Safira",
         "imageinfo": [
-          "safira.png",
+          "rubi1.png",
           "experienciacell.png",
           "experienciacell.png"
         ],
@@ -124,23 +124,23 @@
   },
   {
     "id": 17,
-    "name": "Lux Spa Rubi ",
-    "image": "rubi2.png",
-    "descricao": "O SPA rubi 7 Lugares 2,10 x 2,10 x 0,95 gel coat-completa + base acoplada + aquecedor. Os SPAS de hidromassagem são produzidas em fibra de vidro com acabamento em gel coat e a tecnologia skin coat, um material de alta durabilidade, longa vida útil.    Dispositivos em inox; Motobomba silenciosa, blindada e com protetor térmico; Brilho e acabamento do gel coat com aditivo NPG (resistência e acabamento); tecnologia skin coat; Espessura e reforço; Sistema de abastecimento e antitransbordo (bica ladrão); Acionador eletrônico; aquqcedor 8000W.",
-    "imageinfo": "rubi2.png",
+    "name": "Lux Spa Turquesa",
+    "image": "Turquesa1.png",
+    "descricao": "Spa de hidromassagem Turquesa 2.20 x 2.00 x 0.95 gel coat-completa + base acoplada + aquecedor. As hidromassagem são produzidas em fibra de vidro com acabamento em gel coat e a tecnologia skin coat, um material de alta durabilidade, longa vida útil.  Dispositivos em inox; Motobomba silenciosa, blindada e com protetor térmico; Brilho e acabamento do gel coat com aditivo NPG (resistência e acabamento); tecnologia skin coat; Espessura e reforço; Sistema de abastecimento e antitransbordo (bica ladrão); Acionador eletrônico; aquqcedor 8000W.",
+    "imageinfo": "Turquesa1.png",
     "imageC": [
       "edem3.png",
       "edem2.png"
     ],
     "info": [
       {
-        "name": " Lux Spa Safira",
+        "name": " Lux Spa Turquesa 6 lugares",
         "imageinfo": [
           "rubi.png",
           "experienciacell.png",
           "experienciacell.png"
         ],
-        "tamanho": "C 1,96, L 1,96, P 0,91",
+        "tamanho": "C 2,20m, L 2,00m, P 0,95m",
         "PRECO": "20a.000,00",
         "Promocao": "0",
         "PLANTA": "planta_luxspa2.pdf",
@@ -149,39 +149,43 @@
     ],
     "materias": [
       "1 controle de nível",
-      "4 jatos direcionais e reguláveis em inox",
-      "8 Mini jatos inox",
-      "1 motobomba 1cv silenciosa",
-      "1 acionador eletrônico com termômetro digital",
+      "9 jatos direcionais e reguláveis em inox",
+      "44 mini jatos inox",
+      "2 motobomba 2cv silenciosa",
+      "1 filtro de papel",
+      "1 acionador eletrônico com termômetro digital touch screen",
+      "2 porta copos",
+      "2 porta gelo",
+      "1 air blower",
+      "10 jatos de ar",
       "1 entrada de água",
       "1 ralo de fundo",
       "2 sucção",
       "1 aquecedor 8000w",
       "1 cromoterapia",
-      "4 apoios de cabeça",
-      "Produzida em Gel coat (alto brilho) + Fibra de vidro",
-      "(Espessura de 4,5 a 5mm)"
+      "6 apoios de cabeça",
+      "Produzida em Gel coat (alto brilho) + Fibra de vidro (Espessura de 4,5 a 5mm)"
     ]
   },
   {
     "id": 18,
-    "name": "Lux Spa Safira",
-    "image": "safirass.png",
-    "descricao": "SPA de hidromassagem SAFIRA 4 lugares 1,70 x 1,60 x 0,80 gel coat-completa + base acoplada + aquecedor. As banheiras de hidromassagem são produzidas em fibra de vidro com acabamento em gel coat e a tecnologia skin coat, um material de alta durabilidade, longa vida útil. Dispositivos em inox; Motobomba silenciosa, blindada e com protetor térmico; Brilho e acabamento do gel coat com aditivo NPG (resistência e acabamento); tecnologia skin coat; Espessura e reforço; Sistema de abastecimento e antitransbordo (bica ladrão); Acionador eletrônico; aquqcedor 8000W.",
-    "imageinfo": "safira.png",
+    "name": "Lux Spa Turmalina ",
+    "image": "turmalina1.png",
+    "descricao": "SPA de hidromassagem Turmalina 7 lugares 2.20 x 2.40 x 0,85 gel coat -completa + base acoplada + aquecedor. As banheiras de hidromassagem são produzidas em fibra de vidro com acabamento em gel coat e a tecnologia skin coat, um material de alta durabilidade, longa vida útil. Dispositivos em inox; Motobomba silenciosa, blindada e com protetor térmico; Brilho e acabamento do gel coat com aditivo NPG (resistência e acabamento); tecnologia skin coat; Espessura e reforço; Sistema de abastecimento e antitransbordo (bica ladrão); Acionador eletrônico; aquqcedor 8000W.",
+    "imageinfo": "turmalina1.png",
     "imageC": [
       "edem3.png",
       "edem2.png"
     ],
     "info": [
       {
-        "name": " Lux Spa Safira",
+        "name": " Lux Spa Turmalina",
         "imageinfo": [
           "safira.png",
           "experienciacell.png",
           "experienciacell.png"
         ],
-        "tamanho": "C 1,96, L 1,96, P 0,91",
+        "tamanho": "C 2,20, L 2,40, P 0,85",
         "PRECO": "20a.000,00",
         "Promocao": "0",
         "PLANTA": "planta_luxspa2.pdf",
@@ -189,27 +193,25 @@
       }
     ],
     "materias": [
-      "1 controle de nível",
-      "4 jatos direcionais e reguláveis em inox",
-      "8 Mini jatos inox",
-      "1 motobomba 1cv silenciosa",
-      "1 acionador eletrônico com termômetro digital",
-      "1 entrada de água",
-      "1 ralo de fundo",
-      "2 sucção",
+      "06 jatos direcionais",
+      "24 minis jatos",
+      "02 motobomba 1,5 cv",
+      "01 entrada de água",
+      "01 controle de nível",
+      "01 acionador eletrônico termômetro digital controle de temperatura",
       "1 aquecedor 8000w",
-      "1 cromoterapia",
-      "4 apoios de cabeça",
-      "Produzida em Gel coat (alto brilho) + Fibra de vidro",
-      "(Espessura de 4,5 a 5mm)"
+      "04 cromoterapias",
+      "01 cascata em inox com motobomba exclusiva de 0/5cv",
+      "02 camas.",
+      "Produzida em Gel coat (alto brilho) + Fibra de vidro (Espessura de 4,5 a 5mm)"
     ]
   },
   {
     "id": 19,
-    "name": "Lux Spa Safira",
-    "image": "safirass.png",
+    "name": "Lux Spa Ametista ",
+    "image": "Ametistass.png",
     "descricao": "SPA de hidromassagem SAFIRA 4 lugares 1,70 x 1,60 x 0,80 gel coat-completa + base acoplada + aquecedor. As banheiras de hidromassagem são produzidas em fibra de vidro com acabamento em gel coat e a tecnologia skin coat, um material de alta durabilidade, longa vida útil. Dispositivos em inox; Motobomba silenciosa, blindada e com protetor térmico; Brilho e acabamento do gel coat com aditivo NPG (resistência e acabamento); tecnologia skin coat; Espessura e reforço; Sistema de abastecimento e antitransbordo (bica ladrão); Acionador eletrônico; aquqcedor 8000W.",
-    "imageinfo": "safira.png",
+    "imageinfo": "Ametistass.png",
     "imageC": [
       "edem3.png",
       "edem2.png"
@@ -218,7 +220,7 @@
       {
         "name": " Lux Spa Safira",
         "imageinfo": [
-          "safira.png",
+          "Ametista.png",
           "experienciacell.png",
           "experienciacell.png"
         ],
@@ -231,18 +233,58 @@
     ],
     "materias": [
       "1 controle de nível",
-      "4 jatos direcionais e reguláveis em inox",
-      "8 Mini jatos inox",
+    "2 alças de segurança em inox",
+    "6 jatos direcionais e reguláveis em inox",
+    "1 motobomba 1cv silenciosa",
+    "1 acionador eletrônico com termômetro digital",
+    "1 entrada de água",
+    "1 ralo de fundo",
+    "2 sucção",
+    "1 kit mini jatos em inox",
+    "1 aquecedor 8000w",
+    "1 cromoterapia",
+    "Produzida em Gel coat (alto brilho) + Fibra de vidro (Espessura de 4,5 a 5mm)"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Lux Spa  Jade",
+    "image": "jadeRet.png",
+    "descricao": "Banheira de hidromassagem Jade dupla 1,72 x 1,22 x 0,45 gel coat-completa + base acoplada + aquecedor. As banheiras de hidromassagem são produzidas em fibra de vidro com acabamento em gel coat e a tecnologia skin coat, um material de alta durabilidade, longa vida útil. Dispositivos em inox; Motobomba silenciosa, blindada e com protetor térmico; Brilho e acabamento do gel coat com aditivo NPG (resistência e acabamento); tecnologia skin coat; Espessura e reforço; Sistema de abastecimento e antitransbordo (bica ladrão); Acionador eletrônico; aquqcedor 8000W.",
+    "imageinfo": "jadeRet.png",
+    "imageC": [
+      "edem3.png",
+      "edem2.png"
+    ],
+    "info": [
+      {
+        "name": " Lux Spa retangular Jade",
+        "imageinfo": [
+          "safira.png",
+          "experienciacell.png",
+          "experienciacell.png"
+        ],
+        "tamanho": "C 1,72, L 1,20, P 0,45",
+        "PRECO": "20a.000,00",
+        "Promocao": "0",
+        "PLANTA": "planta_luxspa2.pdf",
+        "link": ""
+      }
+    ],
+    "materias": [
+      "1 controle de nível",
+      "2 alças de segurança em inox",
+      "6 jatos direcionais e reguláveis em inox",
       "1 motobomba 1cv silenciosa",
       "1 acionador eletrônico com termômetro digital",
       "1 entrada de água",
       "1 ralo de fundo",
       "2 sucção",
+      "1 kit mini jatos em inox",
       "1 aquecedor 8000w",
       "1 cromoterapia",
-      "4 apoios de cabeça",
-      "Produzida em Gel coat (alto brilho) + Fibra de vidro",
-      "(Espessura de 4,5 a 5mm)"
+      "2 apoios de cabeça",
+      "Produzida em Gel coat (alto brilho) + Fibra de vidro (Espessura de 4,5 a 5mm)"
     ]
   }
 ]
