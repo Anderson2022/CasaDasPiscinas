@@ -4,6 +4,8 @@ import imageSrc from './../assets/imagen/rio ccz.png'
 import { ref, onMounted } from 'vue'
 import ScrollReveal from 'scrollreveal'
 import { Tooltip, initTE } from 'tw-elements'
+
+
 const whats =
   'https://api.whatsapp.com/send/?phone=556992896672&text=Tenho+interesse+&type=phone_number&app_absent=0'
 
@@ -151,17 +153,17 @@ onMounted(() => {
 </li>
 
       <li>
-        <a
-          href="#"
+        <router-link
+    to="/stock"
           class="block py-2 px-3 text-white  rounded hover:bg-blue-500 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-          >PRODUTOS</a
-        >
+          >PRODUTOS
+      </router-link>
       </li>
       <li>
-        <a
-          href="#"
+        <router-link
+    to="/contact"
           class="block py-2 px-3 text-white  rounded hover:bg-blue-500 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-          >ORÇAMENTOS</a
+          >ORÇAMENTOS</router-link
         >
       </li>
       <li>

@@ -24,6 +24,7 @@ onMounted(() => {
 
 <template>
   <div class="sm:flex-row xl:w-screen">
+    <!-- Conteúdo do seu footer -->
     <div
       class="mt-6 h-96 sm:h-56 w-screen border-current flex items-center flex-col sm:flex-row xl:w-screen"
     >
@@ -34,24 +35,28 @@ onMounted(() => {
       </div>
 
       <div
-        class="flex items-center justify-center -z-10 sm:w-10rem h-10 max-h-32 mt-12 flex-col sm:flex-row sm:h-44 xl:w-screen animated-element"
+        class="flex items-center justify-center sm:w-10rem h-10 max-h-32 mt-12 flex-col sm:flex-row sm:h-44 xl:w-screen animated-element"
       >
-      <router-link to="/contact">
-  <button class="bg-blue-500 text-white px-4 py-2 mb-2 sm:mb-0 rounded-lg w-full sm:w-72 mx-1">
-    Faça seu Orçamento<i class="fas fa-envelope mx-2"></i>
-  </button>
-</router-link>
+        <!-- Botão de orçamento -->
+        <router-link to="/contact">
+          <button
+            class="bg-blue-500 text-white px-4 py-2 mb-2 sm:mb-0 rounded-lg w-full sm:w-72 mx-1"
+          >
+            Faça seu Orçamento<i class="fas fa-envelope mx-2"></i>
+          </button>
+        </router-link>
 
-
-        <button class="bg-pink-500 text-white px-4 py-2 rounded-lg sm:w-72 mx-1">
-          <a :href="whats" target="_blank">
+        <!-- Link do WhatsApp -->
+        <a :href="whats" target="_blank">
+          <button class="bg-pink-500 text-white px-4 py-2 w-full mb-2 rounded-lg sm:w-72 mx-1">
             Faça seu Orçamento
             <i class="fab fa-whatsapp mx-2"></i>
-          </a>
-        </button>
+          </button>
+        </a>
       </div>
 
-      <div class="flex w-72 items-center justify-center mt-12 animated-element xl:w-screen -z-10">
+      <!-- Links de mídia social -->
+      <div class="flex w-72 items-center justify-center mt-12 animated-element xl:w-screen ">
         <a
           :href="face"
           class="flex items-center justify-center bg-pink-500 text-white p-4 m-1 rounded-full"
@@ -68,6 +73,8 @@ onMounted(() => {
         </a>
       </div>
     </div>
+
+    <!-- Direitos autorais -->
     <div
       class="text-sm text-gray-500 my-8 sm:text-center sm:justify-center animated-element xl:w-screen"
     >
@@ -84,3 +91,4 @@ onMounted(() => {
     </div>
   </div>
 </template>
+

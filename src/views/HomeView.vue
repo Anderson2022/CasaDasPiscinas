@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
-
 import HeaderPage from '@/components/HeaderPage.vue'
 import CarrocelPage from '@/components/CarrocelPage.vue'
 import CardPage from '@/components/CardPage.vue'

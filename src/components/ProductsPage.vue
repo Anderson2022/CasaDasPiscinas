@@ -25,11 +25,7 @@ const items = [
     description: 'MOTOR PARA PISCINA',
     titulo: 'Bombas com motores bi volts de altíssimo rendimento'
   },
-  {
-    imageSrc: mangueira,
-    description: 'Mangueira azul/transparente 1 1/2',
-    titulo: 'A Mangueira Azul e Transparente 1.1/2 NV é flexível e resistente.'
-  },
+
   {
     imageSrc: fliuto,
     description: 'Espanha',
