@@ -95,7 +95,7 @@ onMounted(() => {
 
 
         <div class="p-3 animated-element h-[16rem]">
-          <h6 class="mb-4 block font-sans text-base font-semibold uppercase leading-relaxed tracking-normal text-pink-500 antialiased">{{ pool.category }}</h6>
+          <!-- <h6 class="mb-4 block font-sans text-base font-semibold uppercase leading-relaxed tracking-normal text-pink-500 antialiased">{{ pool.category }}</h6> -->
           <h4 class="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">{{ pool.title }}</h4>
           <p class="mb-2 block font-sans text-base font-normal leading-relaxed text-white  antialiased">{{ pool.message }}</p>
           <a class="inline-block" href="#">
