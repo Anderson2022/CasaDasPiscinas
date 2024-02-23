@@ -41,7 +41,7 @@ const items = [
 </script>
 
 <template >
-  <div class=" w-screen xl:w-screen bg-[#AD1E70] flex items-center justify-center">
+  <div class=" w-screen xl:w-screen xl:h-screen bg-[#AD1E70] flex items-center justify-center">
     <div class="w-full xl:w-[91%] xl:px-8
  h-full md:h-auto grid grid-cols-1 md:grid-cols-3 gap-4 px-2 py-4 bg-[#42ccd6] shadow-2xl rounded-lg">
   <!-- Loop through items -->

@@ -26,10 +26,10 @@ onMounted(() => {
 <template>
   <div class="w-screen xl:w-screen bg-[#AD1E70] flex items-center justify-center">
     <div
-      class="h-[25rem] md:h-[69rem] xl:h-[83rem]  w-screen flex justify-center items-center animated-element"
+      class="h-[25rem] md:h-[69rem] xl:h-[65rem] 2xl:h-[93rem] lg:h-[69rem]  w-screen flex justify-center items-center animated-element"
     >
       <div
-        class="bg-[#AD1E70] text-white rounded-lg w-full mx-2 space-y-6 p-3 xl:p5 xl:w-[90%] h-[19rem] md:h-[67rem] xl:h-[83rem]"
+        class="bg-[#AD1E70] text-white rounded-lg w-full mx-2 space-y-6 p-3 xl:p5 xl:w-[90%] "
       >
         <!-- header -->
         <!-- image grid-->

@@ -46,7 +46,7 @@ onMounted(() => {
 </router-link>
 
     </div>
-    <div class="items-center relative sm:w-[70rem]">
+    <div class="items-center relative sm:w-[70rem] xl:w-[90rem] ">
       <div class="md:hidden ml-16">
         <button
           @click="toggleMenu"
