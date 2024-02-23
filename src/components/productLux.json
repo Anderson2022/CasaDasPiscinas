@@ -2,7 +2,7 @@
     {
         "id": 9,
         "name": "Jordan",
-        "image": "rioeden-1536x760.jpg",
+        "image": "jordam.jpg",
         "descricao": "O Rio Jordan proporciona o cenário perfeito para uma experiência exclusiva, segura e completa. Neste ambiente, famílias e amigos podem desfrutar de momentos descontraídos ",
         "imageinfo": "jodan.jpg",
         "imageC": [
@@ -12,7 +12,7 @@
         "info": [
           {
             "name": " Rio Jordan 4",
-            "imageinfo": ["jordan40.png", "","experienciacell.png"],
+            "imageinfo": ["jordan40.png", "jordanq.png","experienciacell.png"],
             "tamanho": "C 3,99, L 1,96, P 1,12",
             "PRECO": "40.000,00",
             "Promocao": "0",
@@ -21,7 +21,7 @@
           },
           {
             "name": " Rio Jordan 5",
-            "imageinfo": ["jordan5.png", "","experienciacell.png"],
+            "imageinfo": ["jordan5.png", "jordanq.png","experienciacell.png"],
             "tamanho": "C 5,04, L 2,38, P 1,40",
             "PRECO": "44.000,00",
             "Promocao": "0",
@@ -30,7 +30,7 @@
           },
           {
             "name": " Rio Jordan 6",
-            "imageinfo": ["jordan6.png", "","experienciacell.png"],
+            "imageinfo": ["jordan6.png", "jordanq.png","experienciacell.png"],
             "tamanho": "C 6,02, L 2,80, P 1,40",
             "PRECO": "55.000,00",
             "Promocao": "0",
@@ -39,7 +39,7 @@
           },
           {
             "name": " Rio Jordan 7",
-            "imageinfo": ["jordan7.png", "","experienciacell.png"],
+            "imageinfo": ["jordan7.png", "jordanq.png","experienciacell.png"],
             "tamanho": "C 7,00, L 3,06, P 1,40",
             "PRECO": "61.000,00",
             "Promocao": "0",
@@ -48,7 +48,7 @@
           },
           {
             "name": " Rio Jordan 8",
-            "imageinfo": ["jordan8.png", "","experienciacell.png"],
+            "imageinfo": ["jordan8.png", "jordanq.png","experienciacell.png"],
             "tamanho": "C 7,98, L 3,50, P 1,40",
             "PRECO": "77.000,00",
             "Promocao": "0",
@@ -72,7 +72,7 @@
         "info": [
           {
             "name": " Rio Èden 4",
-            "imageinfo": ["eden4.png", "","experienciacell.png"],
+            "imageinfo": ["eden4.png", "edenq.png","experienciacell.png"],
             "tamanho": "C 3,99, L 1,96, P 1,12",
             "PRECO": "40.000,00",
             "Promocao": "0",
@@ -81,7 +81,7 @@
           },
           {
             "name": " Rio Èden 5",
-            "imageinfo": ["eden5.png", "","experienciacell.png"],
+            "imageinfo": ["eden5.png", "edenq.png","experienciacell.png"],
             "tamanho": "C 5,04, L 2,38, P 1,40",
             "PRECO": "44.000,00",
             "Promocao": "0",
@@ -90,7 +90,7 @@
           },
           {
             "name": " Rio Èden 6",
-            "imageinfo": ["eden6.png", "","experienciacell.png"],
+            "imageinfo": ["eden6.png", "edenq.png","experienciacell.png"],
             "tamanho": "C 6,02, L 2,80, P 1,40",
             "PRECO": "55.000,00",
             "Promocao": "0",
@@ -99,7 +99,7 @@
           },
           {
             "name": " Rio Èden 7",
-            "imageinfo": ["eden7.png", "","experienciacell.png"],
+            "imageinfo": ["eden7.png", "edenq.png","experienciacell.png"],
             "tamanho": "C 7,00, L 3,06, P 1,40",
             "PRECO": "61.000,00",
             "Promocao": "0",
@@ -108,7 +108,7 @@
           },
           {
             "name": " Rio Èden 8",
-            "imageinfo": ["eden8.png", "","experienciacell.png"],
+            "imageinfo": ["eden8.png", "edenq.png","experienciacell.png"],
             "tamanho": "C 7,98, L 3,50, P 1,40",
             "PRECO": "77.000,00",
             "Promocao": "0",
@@ -123,9 +123,9 @@
     {
         "id": 11,
         "name": "Gion",
-        "image": "rioeden-1536x760.jpg",
+        "image": "Gions.jpg",
         "descricao": "O Rio Gion proporciona o cenário perfeito para uma experiência exclusiva, segura e completa. Neste ambiente, famílias e amigos podem desfrutar de momentos descontraídos ",
-        "imageinfo": "gion.jpg",
+        "imageinfo": "Gions.jpg",
         "imageC": [
           "edem3.png",
           "edem2.png"
@@ -133,7 +133,7 @@
         "info": [
           {
             "name": " Rio Gion 4",
-            "imageinfo": ["gion4.png", "","experienciacell.png"],
+            "imageinfo": ["gion4.png", "gionq.png","experienciacell.png"],
             "tamanho": "C 3,99, L 1,96, P 1,12",
             "PRECO": "40.000,00",
             "Promocao": "0",
@@ -142,7 +142,7 @@
           },
           {
             "name": " Rio Gion 5",
-            "imageinfo": ["Gions5.png", "","experienciacell.png"],
+            "imageinfo": ["Gions5.png", "gionq.png","experienciacell.png"],
             "tamanho": "C 5,04, L 2,38, P 1,40",
             "PRECO": "44.000,00",
             "Promocao": "0",
@@ -151,7 +151,7 @@
           },
           {
             "name": " Rio Gion 6",
-            "imageinfo": ["Gions6.png", "","experienciacell.png"],
+            "imageinfo": ["Gions6.png", "gionq.png","experienciacell.png"],
             "tamanho": "C 6,02, L 2,80, P 1,40",
             "PRECO": "55.000,00",
             "Promocao": "0",
@@ -160,7 +160,7 @@
           },
           {
             "name": " Rio Gion 7",
-            "imageinfo": ["Gions7.png", "","experienciacell.png"],
+            "imageinfo": ["Gions7.png", "gionq.png","experienciacell.png"],
             "tamanho": "C 7,00, L 3,06, P 1,40",
             "PRECO": "61.000,00",
             "Promocao": "0",
@@ -169,7 +169,7 @@
           },
           {
             "name": " Rio Gion 8",
-            "imageinfo": ["Gions8.png", "","experienciacell.png"],
+            "imageinfo": ["Gions8.png", "gionq.png","experienciacell.png"],
             "tamanho": "C 7,98, L 3,50, P 1,40",
             "PRECO": "77.000,00",
             "Promocao": "0",

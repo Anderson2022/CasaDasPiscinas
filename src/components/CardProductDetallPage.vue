@@ -16,7 +16,7 @@ const fecharModal = () => {
 const toggleSegundaDiv = () => {
   mostrarSegundaDiv.value = !mostrarSegundaDiv.value
 }
-const props = defineProps(['item','subItem'])
+const props = defineProps(['item', 'subItem'])
 
 onMounted(() => {
   // Verificar se é desktop
@@ -27,7 +27,6 @@ onMounted(() => {
     isDesktop.value = window.innerWidth >= 1024
   })
 })
-
 
 const baixarPDF = (PLANTA: string) => {
   // Obtém o nome do arquivo PDF
@@ -45,11 +44,43 @@ const baixarPDF = (PLANTA: string) => {
 }
 </script>
 
-
 <template>
   <div>
     <!-- Botão Quadrado -->
-    <div class=" flex items-center justify-center p-8 xl:relative">
+    <div class="flex flex-col xl:flex-row mt-16">
+      <div class="pl-5 xl:flex">
+        <img src="@/assets/imagen/ra_site.webp" alt="Ícone de detalhes" class="mr-2 w-80" />
+      </div>
+      <div class="items-center justify-center flex pl-2 md:pl-0">
+        <h1 class=" md:mx-0 md:text-xs">
+          <span class="text-center font-bold text-2xl w-screen xl:text-4xl md:text-xs"
+            >Veja nossas piscinas em</span
+          ><br />
+          <span class="elementor-headline-dynamic-text text-pink-500 text-3xl md:text-2xl xl:text-4xl font-bold">
+            <span class="inline-block rotate-individual" style="animation-delay: 0.1s">R</span>
+            <span class="inline-block rotate-individual" style="animation-delay: 0.2s">e</span>
+            <span class="inline-block rotate-individual" style="animation-delay: 0.3s">a</span>
+            <span class="inline-block rotate-individual" style="animation-delay: 0.4s">l</span>
+            <span class="inline-block rotate-individual" style="animation-delay: 0.5s">i</span>
+            <span class="inline-block rotate-individual" style="animation-delay: 0.6s">d</span>
+            <span class="inline-block rotate-individual" style="animation-delay: 0.7s">a</span>
+            <span class="inline-block rotate-individual" style="animation-delay: 0.8s">d</span>
+            <span class="inline-block rotate-individual" style="animation-delay: 0.9s">e</span>
+            <span class="inline-block rotate-individual" style="animation-delay: 1s">&nbsp;</span>
+            <span class="inline-block rotate-individual" style="animation-delay: 1.1s">A</span>
+            <span class="inline-block rotate-individual" style="animation-delay: 1.2s">u</span>
+            <span class="inline-block rotate-individual" style="animation-delay: 1.3s">m</span>
+            <span class="inline-block rotate-individual" style="animation-delay: 1.4s">e</span>
+            <span class="inline-block rotate-individual" style="animation-delay: 1.5s">n</span>
+            <span class="inline-block rotate-individual" style="animation-delay: 1.6s">t</span>
+            <span class="inline-block rotate-individual" style="animation-delay: 1.7s">a</span>
+            <span class="inline-block rotate-individual" style="animation-delay: 1.8s">d</span>
+            <span class="inline-block rotate-individual" style="animation-delay: 1.9s">a</span>
+          </span>
+        </h1>
+      </div>
+    </div>
+    <div class="flex items-center justify-center p-8 xl:relative">
       <button
         class="rounded-md bg-white text-black p-2 px-4 focus:outline-none w-48 h-48 shadow-2xl"
         @click="abrirModal"
@@ -61,7 +92,7 @@ const baixarPDF = (PLANTA: string) => {
 
     <div
       v-if="mostrarModal"
-      class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center w-screen h-screen"
+      class="fixed inset-0 bg-black bg-opacity-50 flex z-10 items-center justify-center w-screen h-screen"
     >
       <div
         class="bg-white p-4 rounded-md w-full h-5/6 sm:w-[80%] sm:h-[85%] md:w-[80%] md:h-[85%] lg:w-[80%] lg:h-[85%] absolute"
@@ -104,7 +135,7 @@ const baixarPDF = (PLANTA: string) => {
 
                       <div class="flex flex-col">
                         <div
-                          class="md:px-8 md:pt- z-10 w-full h-auto flex flex-col md:flex-row px-8 xl:w-80 "
+                          class="md:px-8 md:pt- z-10 w-full h-auto flex flex-col md:flex-row px-8 xl:w-80"
                         >
                           <img
                             v-if="isDesktop"
@@ -112,7 +143,7 @@ const baixarPDF = (PLANTA: string) => {
                             :alt="`Imagem Desktop ${subItem.name}`"
                             class="md:w-1/3 md:h-1/2"
                           />
-                          <div v-else class="md:w-1/3 lg:[40%]  bg-slate-600 ">
+                          <div v-else class="md:w-1/3 lg:[40%] bg-slate-600">
                             <a :href="subItem.link">
                               <img
                                 :src="`/imagen/parana/${subItem.imageinfo[2]}`"
@@ -130,7 +161,9 @@ const baixarPDF = (PLANTA: string) => {
                             </button>
                           </div>
                         </div>
-                        <div class="w-full md:w-full flex items-center justify-center md:mt-7 xl:mt-1">
+                        <div
+                          class="w-full md:w-full flex items-center justify-center md:mt-7 xl:mt-1"
+                        >
                           <div class="font-bold">{{ subItem.name }}</div>
                         </div>
                       </div>
@@ -156,5 +189,20 @@ const baixarPDF = (PLANTA: string) => {
 .slide-fade-leave-to {
   transform: translateY(-110%);
   opacity: 0;
+}
+
+@keyframes rotateLetters {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(-360deg);
+  }
+}
+
+.rotate-individual {
+  display: inline-block;
+  animation: rotateLetters 5s infinite; /* Ou o tempo desejado */
+  transform-origin: center; /* Define o ponto de origem no centro da letra */
 }
 </style>

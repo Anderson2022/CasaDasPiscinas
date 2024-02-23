@@ -4,11 +4,13 @@ import CarrocelPage from '@/components/CarrocelPage.vue'
 import CardPage from '@/components/CardPage.vue'
 import FooterPage from '@/components/FooterPage.vue'
 import ProductsPage from '@/components/ProductsPage.vue'
+import HomePage from '@/components/HomePage.vue'
 </script>
 
 <template>
   <main>
     <HeaderPage />
+    <HomePage/>
     <CarrocelPage />
     <CardPage />
     <ProductsPage />

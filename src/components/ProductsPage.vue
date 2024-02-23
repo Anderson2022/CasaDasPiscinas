@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import motor from "./../assets/imagen/motor.png"
-import mangueira from "./../assets/imagen/mangueira.png"
+import casa from "./../assets/imagen/95904590dd64731b64.webp"
 import fliuto from "./../assets/imagen/fliuto.png"
 import { onMounted } from 'vue';
 
@@ -25,6 +25,11 @@ const items = [
     description: 'MOTOR PARA PISCINA',
     titulo: 'Bombas com motores bi volts de altíssimo rendimento'
   },
+  {
+    imageSrc: casa,
+    description: 'CASA DE MAQUINAS',
+    titulo: 'Bombas com motores bi volts de altíssimo rendimento'
+  },
 
   {
     imageSrc: fliuto,
@@ -35,17 +40,19 @@ const items = [
 
 </script>
 
-<template>
-<div class="w-full h-full md:h-auto grid grid-cols-1 md:grid-cols-3 gap-4 px-2 py-4 bg-blue-400">
+<template >
+  <div class=" w-screen xl:w-screen bg-[#AD1E70] flex items-center justify-center">
+    <div class="w-full xl:w-[91%] xl:px-8
+ h-full md:h-auto grid grid-cols-1 md:grid-cols-3 gap-4 px-2 py-4 bg-[#42ccd6] shadow-2xl rounded-lg">
   <!-- Loop through items -->
-  <div v-for="(item, index) in items" :key="index" class="select-none mb-6 w-full animated-element">
-    <div class="relative pb-64">
+  <div v-for="(item, index) in items" :key="index" class="select-none mb-24 w-full animated-element">
+    <div class=" flex items-center justify-center h-full bg-white rounded-lg shadow-md">
       <a href="#" class="cursor-pointer">
-        <img class="absolute w-full h-full rounded-lg object-cover border-b shadow-md cursor-pointer" :src="item.imageSrc" alt="product name" />
+        <img class=" w-72 h-72 rounded-lg object-cover border-b  cursor-pointer" :src="item.imageSrc" alt="product name" />
       </a>
     </div>
 
-    <div class="px-4 -mt-16 relative">
+    <div class="px-4 -mt-16 relative ">
       <div class="bg-slate-300 rounded-lg shadow-lg border">
         <div class="p-5">
           <div class="flex justify-between items-center">
@@ -72,7 +79,7 @@ const items = [
 
           <div>
             <a class="btn-link flex items-center text-xs text-indigo-600 hover:underline" href="#">
-              View Product &rarr;
+              Ver Produto &rarr;
             </a>
           </div>
         </div>
@@ -80,6 +87,8 @@ const items = [
     </div>
   </div>
 </div>
+  </div>
+
 
 
 

@@ -39,7 +39,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="h-32  border-current relative flex items-center ml-2 animated-element xl:w-screen">
+  <div class="h-32  border-current relative flex items-center animated-element xl:w-screen">
     <div class="w-44 h-32 md:ml-40 max-sm:w-[70rem] pt-6">
       <router-link to="/">
   <img class="w-28 h-20 max-sm:w-32" :src="imageSrc" alt="Imagem" />

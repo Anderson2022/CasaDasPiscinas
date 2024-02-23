@@ -12,7 +12,7 @@
       "info": [
         {
           "name": " Lux Spa",
-          "imageinfo": ["spa1.webp", "experienciacell.png","experienciacell.png"],
+          "imageinfo": ["spa1.webp", "prainhaq.png","experienciacell.png"],
           "tamanho": "C 1,96, L 1,96, P 0,91",
           "PRECO": "20a.000,00",
           "Promocao": "0",
@@ -21,7 +21,7 @@
         },
         {
           "name": " Lux Spa",
-          "imageinfo": ["spa.webp", "experienciacell.png","experienciacell.png"],
+          "imageinfo": ["spa.webp", "prainhaq.png","experienciacell.png"],
           "tamanho": "C 2,52, L 2,52, P 0,91",
           "PRECO": "24.000,00",
           "Promocao": "0",

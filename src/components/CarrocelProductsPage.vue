@@ -60,7 +60,7 @@ const stopAutoRotation = () => {
 </script>
 
 <template>
-  <div id="animation-carousel" class="relative w-full" data-carousel="static">
+  <div id="animation-carousel" class="relative w-full bg-[#AD1E70]" data-carousel="static">
     <!-- Carousel wrapper -->
     <div
       v-for="(image, index) in data"

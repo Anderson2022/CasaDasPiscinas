@@ -23,19 +23,18 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="sm:flex-row xl:w-screen">
+  <div class="sm:flex-row xl:w-screen md:w-screen bg-[#AD1E70] flex items-center justify-center">
+<div class="sm:flex-row xl:w-[95%] md:w-screen bg-[#AD1E70]">
     <!-- Conteúdo do seu footer -->
-    <div
-      class="mt-6 h-96 sm:h-56 w-screen border-current flex items-center flex-col sm:flex-row xl:w-screen"
+    <div class="h-96 sm:h-56 w-screen border-current flex items-center flex-col sm:flex-row xl:w-[100%] md:w-screen"
     >
-      <div class="w-96 items-center xl:w-screen justify-center flex">
+      <div class=" items-center xl:w-screen md:w-screen justify-center flex mt-16">
         <router-link to="/">
           <img class="w-28 h-20 max-sm:w-32" :src="imageSrc" alt="Imagem" />
         </router-link>
       </div>
 
-      <div
-        class="flex items-center justify-center sm:w-10rem h-10 max-h-32 mt-12 flex-col sm:flex-row sm:h-44 xl:w-screen animated-element"
+      <div class="flex items-center justify-center sm:w-10rem h-10 max-h-32 mt-12 flex-col sm:flex-row sm:h-44  md:w-screen animated-element"
       >
         <!-- Botão de orçamento -->
         <router-link to="/contact">
@@ -56,7 +55,7 @@ onMounted(() => {
       </div>
 
       <!-- Links de mídia social -->
-      <div class="flex w-72 items-center justify-center mt-12 animated-element xl:w-screen ">
+      <div class="flex w-64 mt-10 items-center justify-center animated-element xl:w-screen md:w-screen">
         <a
           :href="face"
           class="flex items-center justify-center bg-pink-500 text-white p-4 m-1 rounded-full"
@@ -75,9 +74,7 @@ onMounted(() => {
     </div>
 
     <!-- Direitos autorais -->
-    <div
-      class="text-sm text-gray-500 my-8 sm:text-center sm:justify-center animated-element xl:w-screen"
-    >
+    <div class="text-sm text-gray-500 sm:text-center sm:justify-center text-white animated-element xl:w-[95%] md:w-screen">
       <h2 class="text-center">
         Copyright © 2024 Casa das Piscinas. Todos os direitos reservados.
       </h2>
@@ -90,5 +87,6 @@ onMounted(() => {
       </p>
     </div>
   </div>
+  </div>
+  
 </template>
-

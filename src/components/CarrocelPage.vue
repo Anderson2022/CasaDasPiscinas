@@ -1,44 +1,13 @@
 <script setup lang="ts">
-import { Carousel, initTE } from 'tw-elements'
-import { ref, onMounted, onBeforeUnmount } from 'vue'
-import teste from './../assets/imagen/pr1.jpg'
-import teste2 from './../assets/imagen/pr2.jpg'
-import teste3 from './../assets/imagen/pr3.jpg'
-import teste4 from './../assets/imagen/ofertasWeb.jpg'
-import ScrollReveal from 'scrollreveal'
-initTE({ Carousel })
+import produtosData from '@/components/script/Image.json'
+import { onMounted } from 'vue'
+const produtos = produtosData[0].card.map((nomeArquivo, index) => ({
+  id: index + 1, // Defina um ID para cada produto, se necessário
+  name: `Image ${index + 1}`, // Nome do produto, você pode ajustar conforme necessário
+  image: nomeArquivo
+}))
 
-const images = [teste, teste2, teste3, teste4]
-
-const activeIndex = ref(0)
-const autoplayInterval = 3000 // Intervalo de autoplay em milissegundos
-let autoplayTimer: number | undefined
-
-const prevSlide = () => {
-  activeIndex.value = (activeIndex.value - 1 + images.length) % images.length
-}
-
-const nextSlide = () => {
-  activeIndex.value = (activeIndex.value + 1) % images.length
-}
-
-const startAutoplay = () => {
-  autoplayTimer = setInterval(() => {
-    nextSlide()
-  }, autoplayInterval)
-}
-
-const stopAutoplay = () => {
-  clearInterval(autoplayTimer)
-}
-
-onMounted(() => {
-  startAutoplay() // Inicia o autoplay quando o componente é montado
-})
-
-onBeforeUnmount(() => {
-  stopAutoplay() // Para o autoplay quando o componente é desmontado
-})
+console.log('Produtos:', produtos)
 
 onMounted(() => {
   const sr = ScrollReveal({
@@ -54,58 +23,62 @@ onMounted(() => {
 })
 </script>
 
-
 <template>
-  <div
-    id="carouselExampleControls"
-    class="relative animated-element"
-    data-te-carousel-init
-    data-te-ride="carousel"
-  >
-    <div class="flex justify-between z-10">
-      <button
-        class="flex items-center justify-center p-2 text-gray-500 opacity-50 hover:opacity-90 focus:opacity-90 focus:outline-none"
-        type="button"
-        data-te-target="#carouselExampleControls"
-        data-te-slide="prev"
-        @click="prevSlide"
+  <div class="w-screen xl:w-screen bg-[#AD1E70] flex items-center justify-center">
+    <div
+      class="h-[25rem] md:h-[69rem] xl:h-[83rem]  w-screen flex justify-center items-center animated-element"
+    >
+      <div
+        class="bg-[#AD1E70] text-white rounded-lg w-full mx-2 space-y-6 p-3 xl:p5 xl:w-[90%] h-[19rem] md:h-[67rem] xl:h-[83rem]"
       >
-        <span class="inline-block h-6 w-6">
-          <i class="fas fa-chevron-left"></i>
-        </span>
-      </button>
-
-      <div class="relative w-full h-72 xl:h-[40rem] overflow-hidden">
-        <div
-          v-for="(image, index) in images"
-          :key="index"
-          class="w-full transition-transform"
-          :class="{
-            hidden: index !== activeIndex,
-            'duration-[600ms] ease-in-out motion-reduce:transition-none h-72 xl:h-[40rem]':
-              index === activeIndex
-          }"
-          data-te-carousel-item
-          :data-te-carousel-active="index === activeIndex"
-        >
-          <img
-            :src="image"
-            :alt="'Image ' + (index + 1)"
-            class="block w-full h-full object-contain"
-          />
+        <!-- header -->
+        <!-- image grid-->
+        <div class="grid grid-cols-1 col-span-2 gap-2">
+          <!-- Primeira linha com 3 produtos -->
+          <div class="grid grid-cols-3 gap-2">
+            <div
+              v-for="(produto, index) in produtos.slice(0, 3)"
+              :key="index"
+              class="overflow-hidden rounded-xl max-h-[20rem] max-w-[35rem]"
+            >
+              <img
+                class="w-full object-contain animated-element"
+                :src="`/imagen/card/${produto.image}`"
+                :alt="produto.name"
+              />
+            </div>
+          </div>
+          <!-- Segunda linha com 2 produtos -->
+          <div class="grid grid-cols-2 gap-2">
+            <div
+              v-for="(produto, index) in produtos.slice(3, 5)"
+              :key="index"
+              class="overflow-hidden rounded-xl max-w-[54rem]"
+            >
+              <img
+                class="w-full object-contain max-w-[54rem] animated-element"
+                :src="`/imagen/card/${produto.image}`"
+                :alt="produto.name"
+              />
+            </div>
+          </div>
+          <!-- Terceira linha com 3 produtos -->
+          <div class="grid grid-cols-3 gap-2">
+            <div
+              v-for="(produto, index) in produtos.slice(5)"
+              :key="index"
+              class="overflow-hidden rounded-xl max-h-[20rem] max-w-[35rem]"
+            >
+              <img
+                class="w-full object-contain animated-element"
+                :src="`/imagen/card/${produto.image}`"
+                :alt="produto.name"
+              />
+            </div>
+          </div>
         </div>
+        <!-- comments-->
       </div>
-      <button
-        class="flex items-center justify-center p-2 text-gray-500 hover:text-gray-700 focus:text-gray-700 focus:outline-none"
-        type="button"
-        data-te-target="#carouselExampleControls"
-        data-te-slide="next"
-        @click="nextSlide"
-      >
-        <span class="inline-block h-6 w-6">
-          <i class="fas fa-chevron-right"></i>
-        </span>
-      </button>
     </div>
   </div>
 </template>
