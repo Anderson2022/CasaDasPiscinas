@@ -1,14 +1,15 @@
 <script setup lang="ts">
 import { Carousel, initTE } from 'tw-elements'
 import { ref, onMounted, onBeforeUnmount } from 'vue'
-import teste from './../assets/imagen/promocao_semana01-1.jpg'
-import teste2 from './../assets/imagen/pr2.jpg'
-import teste3 from './../assets/imagen/pr3.jpg'
-import teste4 from './../assets/imagen/ofertasWeb.jpg'
+import teste from './../assets/post/promocao_semana01-1.jpg'
+import teste2 from './../assets/post/retrato-de-um-menino-bonito-rindo.jpg'
+import teste3 from './../assets/post/riosss.jpg'
+import teste4 from './../assets/post/ofertasWeb.jpg'
+import teste5 from './../assets/post/s.jpg'
 import ScrollReveal from 'scrollreveal'
 initTE({ Carousel })
 
-const images = [teste, teste2, teste3, teste4]
+const images = [teste, teste2, teste3, teste4, teste5]
 
 const activeIndex = ref(0)
 const autoplayInterval = 3000 // Intervalo de autoplay em milissegundos
