@@ -23,7 +23,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="sm:flex-row xl:w-screen md:w-screen bg-[#AD1E70] flex items-center justify-center">
+  <div class="sm:flex-row xl:w-screen md:w-screen bg-[#AD1E70] flex items-center justify-center ">
 <div class="sm:flex-row xl:w-[95%] md:w-screen bg-[#AD1E70]">
     <!-- Conteúdo do seu footer -->
     <div class="h-96 sm:h-56 w-screen border-current flex items-center flex-col sm:flex-row xl:w-[100%] md:w-screen"
@@ -74,7 +74,7 @@ onMounted(() => {
     </div>
 
     <!-- Direitos autorais -->
-    <div class="text-sm text-gray-500 sm:text-center sm:justify-center text-white animated-element xl:w-[95%] md:w-screen">
+    <div class="text-sm text-gray-500 sm:text-center sm:justify-center text-white animated-element xl:w-[95%] md:w-screen px-8">
       <h2 class="text-center">
         Copyright © 2024 Casa das Piscinas. Todos os direitos reservados.
       </h2>

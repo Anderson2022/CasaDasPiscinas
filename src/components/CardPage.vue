@@ -88,7 +88,7 @@ onMounted(() => {
      <div class="flex  items-center justify-center overflow-hidden p-2 xl:w-[94%] xl:h-[34rem] md:h-[31rem] bg-[#AD1E70]
 ">
     <div class="flex carousel-container space-x-4 overflow-x-auto animated-element ">
-      <div v-for="(pool, index) in pools" :key="index" :class="[cardColors[index % cardColors.length], 'flex-shrink-0', 'w-[19rem] h-[35rem] md:w-[35rem] md:h-[19rem] rounded-lg animated-element']">
+      <div v-for="(pool, index) in pools" :key="index" :class="[cardColors[index % cardColors.length], 'flex-shrink-0', 'w-[19rem] h-[16rem] md:w-[35rem] md:h-[19rem] rounded-lg animated-element']">
         <div class="relative w-full overflow-hidden rounded-xl  bg-clip-border text-gray-700 flex items-center justify-center">
           <img :src="pool.imageSrc" alt="Imagem" class="w-96 object-cover" />
         </div>
