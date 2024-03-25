@@ -6,6 +6,7 @@ import teste2 from './../assets/post/retrato-de-um-menino-bonito-rindo.jpg'
 import teste3 from './../assets/post/riosss.jpg'
 import teste4 from './../assets/post/ofertasWeb.jpg'
 import teste5 from './../assets/post/s.jpg'
+import front30 from './../assets/post/Prancheta1.png'
 import ScrollReveal from 'scrollreveal'
 initTE({ Carousel })
 
@@ -44,7 +45,7 @@ onBeforeUnmount(() => {
 onMounted(() => {
   const sr = ScrollReveal({
     distance: '20px',
-    duration: 800,
+    duration: 1000,
     delay: 200,
     easing: 'ease-in-out'
   })
@@ -55,61 +56,25 @@ onMounted(() => {
 })
 </script>
 
-
 <template>
-    <div class="w-screen xl:w-screen bg-[#AD1E70] flex items-center justify-center">
-       <div
-    id="carouselExampleControls"
-    class="relative animated-element xl:w-[95%]"
-    data-te-carousel-init
-    data-te-ride="carousel"
-  >
-    <div class="flex justify-between z-10">
-      <!-- <button
-        class="flex items-center justify-center p-2 text-gray-500 opacity-50 hover:opacity-90 focus:opacity-90 focus:outline-none"
-        type="button"
-        data-te-target="#carouselExampleControls"
-        data-te-slide="prev"
-        @click="prevSlide"
-      >
-        <span class="inline-block h-6 w-6">
-          <i class="fas fa-chevron-left"></i>
-        </span>
-      </button> -->
-
-      <div class="relative w-full h-48 md:h-screen xl:h-screen overflow-hidden">
-        <div
-          v-for="(image, index) in images"
-          :key="index"
-          class="w-full transition-transform"
-          :class="{
-            hidden: index !== activeIndex,
-            'duration-[600ms] ease-in-out motion-reduce:transition-none h-72 xl:h-screen':
-              index === activeIndex
-          }"
-          data-te-carousel-item
-          :data-te-carousel-active="index === activeIndex"
-        >
-          <img
-            :src="image"
-            :alt="'Image ' + (index + 1)"
-            class="block w-full h-48 md:h-screen object-contain"
-          />
+<div class="w-screen xl:w-screen bg-[#AD1E70] flex flex-col md:flex-row items-center justify-center">
+  <div class="relative animated-element xl:w-[95%] xl:rounded-lg" data-te-carousel-init data-te-ride="carousel">
+    <div class="flex justify-between flex-col-reverse md:flex-row z-10 xl:rounded-lg">
+      <div class="relative w-full h-48 md:h-screen xl:h-[75vh] overflow-hidden xl:rounded-lg">
+        <div v-for="(image, index) in images" :key="index" :class="{ hidden: index !== activeIndex, 'duration-[600ms] ease-in-out motion-reduce:transition-none h-72 xl:h-[75vh] w-full transition-transform xl:rounded-lg': index === activeIndex }" data-te-carousel-item :data-te-carousel-active="index === activeIndex">
+          <img :src="image" :alt="'Image ' + (index + 1)" class="block w-full h-48 md:h-screen object-contain xl:h-[75vh] xl:rounded-md">
         </div>
       </div>
-      <!-- <button
-        class="flex items-center justify-center p-2 text-gray-500 hover:text-gray-700 focus:text-gray-700 focus:outline-none"
-        type="button"
-        data-te-target="#carouselExampleControls"
-        data-te-slide="next"
-        @click="nextSlide"
-      >
-        <span class="inline-block h-6 w-6">
-          <i class="fas fa-chevron-right"></i>
-        </span>
-      </button> -->
     </div>
-  </div> 
+  </div>
+  <div class="w-full md:w-[30%] mt-6 md:mt-0 md:ml-4">
+    <div class="juice2 rounded-xl bg-primary-lite bg-cover">
+      <div class="max-w-sm">
+        <img :src="front30" alt="diverção" class="w-full h-auto animated-element">
+      </div>
     </div>
+  </div>
+</div>
+
 
 </template>

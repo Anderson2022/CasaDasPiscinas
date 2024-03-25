@@ -5,13 +5,13 @@
     <div
       class="grid sm:grid-cols-2 items-center gap-16 p-8 mx-auto max-w-4xl bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-md text-[#333] font-[sans-serif]"
     >
-      <div>
-        <h1 class="text-3xl font-extrabold text-blue-600">Rio Piscinas</h1>
-        <p class="text-sm text-gray-400 mt-3">
+      <div class="animated-element">
+        <h1 class="text-3xl font-extrabold text-blue-600 animated-element">Rio Piscinas</h1>
+        <p class="text-sm text-gray-400 mt-3 animated-element">
           Fale conosco pelo telefone, whatsapp ou e-mail. Se voçê tem alguma duvida sobre nossos
           produtos, pro favor selecione o canal de atendimento adquado
         </p>
-        <div class="mt-12">
+        <div class="mt-12 animated-element">
           <h2 class="text-lg font-extrabold">Email</h2>
           <ul class="mt-3">
             <li class="flex items-center">

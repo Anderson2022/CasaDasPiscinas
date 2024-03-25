@@ -1,10 +1,30 @@
 <script setup lang="ts">
 import imageSrc from './../assets/imagen/rio ccz.png'
+import {onMounted } from 'vue'
+import ScrollReveal from 'scrollreveal'
+import { Tooltip, initTE } from 'tw-elements'
+
+onMounted(() => {
+  const sr = ScrollReveal({
+    distance: '20px',
+    duration: 800,
+    delay: 200,
+    easing: 'ease-in-out'
+  })
+
+  sr.reveal('.animated-element', { origin: 'bottom', interval: 100 })
+
+  // Outras configurações e animações, se necessário
+})
+onMounted(() => {
+  initTE({ Tooltip })
+})
+
 </script>
 
 <template>
 <!-- component -->
-<div class="py-10 bg-white ">  
+<div class="py-10 bg-white animated-element">  
   <div class="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
       <div class="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
         <div class="md:5/12 lg:w-5/12">

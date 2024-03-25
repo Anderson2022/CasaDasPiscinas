@@ -4,7 +4,7 @@ import ScrollReveal from 'scrollreveal'
 import { onMounted } from 'vue'
 
 const face = 'https://www.facebook.com/profile.php?id=61550529652901&locale=pt_BR'
-const insta = 'https://www.instagram.com/piscinas_cacoal/'
+const insta = 'https://www.instagram.com/riopiscinascacoal_oficial?igsh=cTVybnU1ZGRla2ly'
 const whats =
   'https://api.whatsapp.com/send/?phone=556992896672&text=Tenho+interesse+&type=phone_number&app_absent=0'
 
