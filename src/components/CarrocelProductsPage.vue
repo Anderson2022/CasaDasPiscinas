@@ -60,12 +60,14 @@ const stopAutoRotation = () => {
 </script>
 
 <template>
+<div class="h-32">
+</div>
   <div id="animation-carousel" class="relative w-full bg-[#AD1E70]" data-carousel="static">
     <!-- Carousel wrapper -->
     <div
       v-for="(image, index) in data"
       :key="index"
-      class="w-full transition-transform"
+      class="w-full transition-transform "
       :class="{
         hidden: index !== activeIndex,
         'duration-[600ms] ease-in-out motion-reduce:transition-none': index === activeIndex

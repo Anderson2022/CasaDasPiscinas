@@ -3,6 +3,7 @@ import motor from "./../assets/imagen/motor.png"
 import casa from "./../assets/imagen/95904590dd64731b64.webp"
 import fliuto from "./../assets/imagen/fliuto.png"
 import { onMounted } from 'vue';
+import ScrollReveal from 'scrollreveal';
 
 onMounted(() => {
   const sr = ScrollReveal({
@@ -33,8 +34,8 @@ const items = [
 
   {
     imageSrc: fliuto,
-    description: 'Espanha',
-    titulo: 'Mangueira azul/transparente 1 1/2'
+    description: 'Filtro de areia',
+    titulo: 'FILTRO PARA PISCINA'
   }
 ];
 

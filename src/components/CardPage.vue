@@ -111,6 +111,7 @@ onMounted(() => {
 
 <style scoped>
 .carousel-container {
+  height: 22rem;
   display: flex;
   overflow-x: auto;
   gap: 16px; /* Ajuste o espaçamento entre os itens conforme necessário */

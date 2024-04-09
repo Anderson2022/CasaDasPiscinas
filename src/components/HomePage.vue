@@ -57,8 +57,9 @@ onMounted(() => {
 </script>
 
 <template>
-<div class="w-screen xl:w-screen bg-[#AD1E70] flex flex-col md:flex-row items-center justify-center">
-  <div class="relative animated-element xl:w-[95%] xl:rounded-lg" data-te-carousel-init data-te-ride="carousel">
+<div class="w-screen xl:w-screen bg-[#AD1E70] flex flex-col md:flex-row items-center justify-center ">
+  <div class="relative animated-element xl:w-[95%] xl:rounded-lg mt-28 md:mt-32
+" data-te-carousel-init data-te-ride="carousel">
     <div class="flex justify-between flex-col-reverse md:flex-row z-10 xl:rounded-lg">
       <div class="relative w-full h-48 md:h-screen xl:h-[75vh] overflow-hidden xl:rounded-lg">
         <div v-for="(image, index) in images" :key="index" :class="{ hidden: index !== activeIndex, 'duration-[600ms] ease-in-out motion-reduce:transition-none h-72 xl:h-[75vh] w-full transition-transform xl:rounded-lg': index === activeIndex }" data-te-carousel-item :data-te-carousel-active="index === activeIndex">
@@ -67,7 +68,7 @@ onMounted(() => {
       </div>
     </div>
   </div>
-  <div class="w-full md:w-[30%] mt-6 md:mt-0 md:ml-4">
+  <div class="w-full md:w-[30%] mt-9 md:mt-36 md:ml-4 ">
     <div class="juice2 rounded-xl bg-primary-lite bg-cover">
       <div class="max-w-sm">
         <img :src="front30" alt="diverção" class="w-full h-auto animated-element">

@@ -1,13 +1,13 @@
 <script setup lang="ts">
 import produtosData from '@/components/script/Image.json'
+import ScrollReveal from 'scrollreveal';
+
 import { onMounted } from 'vue'
 const produtos = produtosData[0].card.map((nomeArquivo, index) => ({
   id: index + 1, // Defina um ID para cada produto, se necessário
   name: `Image ${index + 1}`, // Nome do produto, você pode ajustar conforme necessário
   image: nomeArquivo
 }))
-
-console.log('Produtos:', produtos)
 
 onMounted(() => {
   const sr = ScrollReveal({
@@ -24,7 +24,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="w-screen xl:w-screen bg-[#AD1E70] flex items-center justify-center">
+  <div class="w-screen xl:w-screen bg-[#AD1E70] flex items-center justify-center animated-element">
     <div
       class="h-[25rem] md:h-[69rem] xl:h-[65rem] 2xl:h-[93rem] lg:h-[69rem]  w-screen flex justify-center items-center animated-element"
     >

@@ -24,8 +24,9 @@ watchEffect(() => {
 </script>
 
 <template>
-  <div class="flex flex-col lg:flex-col md:flex-col sm:flex-col">
-    <div class="flex flex-col lg:flex-row">
+  
+  <div class="flex flex-col lg:flex-col md:flex-col sm:flex-col ">
+    <div class="flex flex-col lg:flex-row ">
       <!-- Div 1 (top left) -->
       <div class="flex-1 lg:h-90vh lg:w-90vw p-8">
         <div v-if="item" class="text-white">
