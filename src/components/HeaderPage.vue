@@ -39,9 +39,9 @@ onMounted(() => {
 
 <template>
   <div
-    class="h-32 border-current fixed z-10 flex items-center animated-element xl:w-screen bg-[#AD1E70]"
+    class="h-32 w-full border-current fixed z-10 flex items-center animated-element xl:w-screen bg-[#AD1E70]"
   >
-    <div class="w-44 h-30 md:ml-36 max-sm:w-[11rem] pt-2">
+    <div class="w-44 h-30 md:ml-36 max-sm:w-[14rem] pt-2">
       <router-link to="/">
         <img class="w-28 h-20 max-sm:w-32" :src="imageSrc" alt="Imagem" />
       </router-link>
