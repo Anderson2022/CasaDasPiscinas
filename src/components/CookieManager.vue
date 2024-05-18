@@ -16,31 +16,29 @@
   </div>
 </template>
 
-<script>
+<script setup lang="ts">
 import Cookies from 'js-cookie';
 
-export default {
-  data() {
-    return {
-      showModal: true, // Exibe o modal automaticamente ao carregar a página
-    };
-  },
-  methods: {
-    acceptCookies() {
-      Cookies.set('cookie_consent', 'accepted', { expires: 365 }); // Cookie expira em 1 ano
-      this.showModal = false;
-    },
-    checkCookieConsent() {
-      if (Cookies.get('cookie_consent') === 'accepted') {
-        this.showModal = false;
-      }
-    },
-  },
-  mounted() {
-    this.checkCookieConsent(); // Verifica se o consentimento já foi dado
-  },
+// Declare o tipo da propriedade `showModal`
+let showModal: boolean;
+
+// Método para aceitar os cookies
+const acceptCookies = () => {
+  Cookies.set('cookie_consent', 'accepted', { expires: 365 }); // Cookie expira em 1 ano
+  showModal = false;
 };
+
+// Método para verificar se o consentimento de cookies já foi dado
+const checkCookieConsent = () => {
+  if (Cookies.get('cookie_consent') === 'accepted') {
+    showModal = false;
+  }
+};
+
+// Verifica automaticamente se o consentimento de cookies já foi dado ao montar o componente
+checkCookieConsent();
 </script>
+
 
 <style scoped>
 /* Adicione aqui qualquer estilo específico se necessário */
