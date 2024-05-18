@@ -23,6 +23,8 @@ onMounted(() => {
 </script>
 
 <template>
+  <div class="h-32">
+</div>
 <!-- component -->
 <div class="py-10 bg-white animated-element">  
   <div class="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">

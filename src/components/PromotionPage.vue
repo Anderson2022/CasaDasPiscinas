@@ -24,6 +24,8 @@
   };
   </script>
   <template>
+    <div class="h-32">
+</div>
     <div class="flex items-center justify-center">
         <h1 class="text-indigo-700 font-bold text-6xl mb-3">Promoções</h1>
     </div>
