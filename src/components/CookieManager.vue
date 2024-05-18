@@ -17,29 +17,30 @@
 </template>
 
 <script setup lang="ts">
-import Cookies from 'js-cookie';
+import { ref, onMounted } from 'vue';
 
-// Declare o tipo da propriedade `showModal`
-let showModal: boolean;
+// Declaração da variável `showModal`
+const showModal = ref(true);
 
 // Método para aceitar os cookies
-const acceptCookies = () => {
-  Cookies.set('cookie_consent', 'accepted', { expires: 365 }); // Cookie expira em 1 ano
-  showModal = false;
+const acceptCookies = async () => {
+  localStorage.setItem('cookie_consent', 'accepted');
+  showModal.value = false;
 };
 
 // Método para verificar se o consentimento de cookies já foi dado
 const checkCookieConsent = () => {
-  if (Cookies.get('cookie_consent') === 'accepted') {
-    showModal = false;
+  if (localStorage.getItem('cookie_consent') === 'accepted') {
+    showModal.value = false;
   }
 };
 
 // Verifica automaticamente se o consentimento de cookies já foi dado ao montar o componente
-checkCookieConsent();
+onMounted(() => {
+  checkCookieConsent();
+});
 </script>
 
-
 <style scoped>
-/* Adicione aqui qualquer estilo específico se necessário */
+/* Adicione estilos específicos aqui, se necessário */
 </style>
