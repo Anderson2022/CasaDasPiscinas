@@ -1,179 +1,43 @@
 <script setup lang="ts">
-import { defineProps, watchEffect } from 'vue'
-import CardProductDetallPage from './CardProductDetallPage.vue'
-
-// Defina as propriedades que você espera receber
-const props = defineProps(['item'])
-
-// Use a propriedade item normalmente
-console.log('foundItem:', props.item)
-
-const formatarTamanho = (tamanho: string) => {
-  const partes = tamanho.split(', ')
-  const tamanhoFormatado = partes.map((part) => {
-    const [letra, valor] = part.split(' ')
-    return `<strong>${letra}</strong> ${valor}`
-  })
-  return tamanhoFormatado.join(', ')
-}
-
-// Exemplo de watchEffect para observar alterações na propriedade
-watchEffect(() => {
-  console.log('item alterado:', props.item)
-})
+defineProps<{ item: any; spa?: boolean }>()
+const whats = 'https://api.whatsapp.com/send/?phone=5565981113042&text=Ol%C3%A1%2C+quero+saber+mais+sobre+uma+piscina&type=phone_number&app_absent=0'
 </script>
 
 <template>
-  
-  <div class="flex flex-col lg:flex-col md:flex-col sm:flex-col ">
-    <div class="flex flex-col lg:flex-row ">
-      <!-- Div 1 (top left) -->
-      <div class="flex-1 lg:h-90vh lg:w-90vw p-8">
-        <div v-if="item" class="text-white">
-          <h2 class="text-6xl font-bold text-cyan-500 ml-8 mt-8">{{ item.name }}</h2>
-          <p class="text-black ml-8 mr-8 mt-8">{{ item.descricao }}</p>
-          <img
-            :src="`/imagen/parana/${item.imageinfo}`"
-            :alt="'Image '"
-            class="block h-auto max-w-full object-cover w-3/4 mt-8 items-center mx-auto"
-          />
-        </div>
+  <section v-if="item" class="product-detail">
+    <div class="section-shell product-intro">
+      <div class="product-intro__copy">
+        <p class="section-number">{{ spa ? 'Nature Spas & Banheiras' : 'Linha Rio Piscinas' }}</p>
+        <h1>{{ item.name }}</h1>
+        <p>{{ item.descricao }}</p>
+        <div class="product-intro__actions"><a :href="whats" target="_blank" class="btn-primary">Solicitar orçamento ↗</a><a href="#modelos" class="text-link dark">Ver tamanhos ↓</a></div>
       </div>
+      <div class="product-intro__visual"><span>20 anos<br />de garantia</span><img :src="`/imagen/parana/${item.imageinfo}`" :alt="item.name" /></div>
+    </div>
 
-      <!-- Div 2 (top right) -->
-      <div v-if="item" class="flex-1 lg:h-90vh lg:w-90vw 0 text-center lg:ml-4 mt-4 lg:mt-0">
-        <h2 class="text-5xl font-bold text-cyan-500 mt-8 pb-4 border-b-2 border-gray-400">
-          Medidas
-        </h2>
-        <div class="flex items-center justify-center mt-14">
-          <div class="table-responsive">
-            <table class="border-collapse w-full sm:w-full">
-              <thead>
-                <tr>
-                  <th class="p-2 sm:p-1 w-48 sm:w-56 md:w-64 text-sm sm:text-base">Nome</th>
-                  <th class="p-2 sm:p-1 w-48 sm:w-56 md:w-64 h-4 text-sm sm:text-base">
-                    Dimensões (C x L x P)
-                  </th>
-                  <th class="p-2 sm:p-1 w-1/3 md:w-40 text-sm sm:text-base">Preço</th>
-                  <th class="p-1 sm:p-0.5 w-9 md:w-9 text-sm sm:text-base">Promo</th>
-                </tr>
-              </thead>
-              <tbody>
-                <!-- Utilizando v-for para iterar sobre os itens em item.info -->
-                <tr
-                  v-for="(info, index) in item.info"
-                  :key="index"
-                  class="border-b-2 border-gray-300 h-10"
-                >
-                  <!-- Utilizando o índice para acessar os elementos correspondentes em item.info -->
-                  <td
-                    class="items-start text-left text-sm sm:text-base w-80 sm:w-24 md:w-32 p-2 sm:p-1"
-                  >
-                    {{ info.name }}<span class="text-red-500">*</span>
-                  </td>
-
-                  <td
-                    class="items-start text-left text-sm sm:text-base w-80 sm:w-24 md:w-32"
-                    v-html="formatarTamanho(info.tamanho)"
-                  ></td>
-                  <td class="text-sm sm:text-base w- sm:w-24 md:w-32 font-bold">
-                    R${{ info.PRECO }}
-                  </td>
-
-                  <td v-if="info.Promocao !== '0'" class="pr-1 sm:pr-2">
-                    <button
-                      class="rounded-full bg-orange-600 w- sm:w-24 md:w-32 p-2 sm:p-1 text-xs sm:text-sm"
-                     
-                    >
-                    <!-- @click="abrirModal(info.Promocao)" -->
-                      Ver
-                    </button>
-                  </td>
-
-                  <td v-else class="pr-1 sm:pr-2"></td>
-                </tr>
-              </tbody>
-            </table>
+    <div id="modelos" class="variants section-shell">
+      <div class="variants__head"><div><p class="section-number">Escolha a configuração</p><h2>Medidas e valores</h2></div><p>Selecione o tamanho ideal para o seu espaço. Consulte nossa equipe para confirmar condições de instalação e entrega.</p></div>
+      <div class="variants__grid">
+        <article v-for="(info,index) in item.info" :key="`${info.name}-${index}`" class="variant-card">
+          <span class="variant-card__index">{{ String(index + 1).padStart(2,'0') }}</span>
+          <div class="variant-card__image"><img :src="`/imagen/parana/${info.imageinfo?.[0]}`" :alt="info.name" loading="lazy" /></div>
+          <div class="variant-card__body">
+            <h3>{{ info.name }}</h3><p class="variant-card__size">{{ info.tamanho }}</p>
+            <div class="variant-card__price"><small>{{ info.Promocao !== '0' ? 'Valor promocional' : 'A partir de' }}</small><strong>R$ {{ info.Promocao !== '0' ? info.Promocao : info.PRECO }}</strong><del v-if="info.Promocao !== '0'">R$ {{ info.PRECO }}</del></div>
+            <div class="variant-card__links"><a :href="`/imagen/pdf/${info.PLANTA}`" target="_blank">Ver planta ↗</a><a v-if="info.link" :href="info.link" target="_blank">Ver em realidade aumentada ↗</a></div>
           </div>
+        </article>
+      </div>
+      <p class="price-note">* Preços sujeitos a alteração. Frete e mão de obra podem variar conforme as condições locais.</p>
+    </div>
+
+    <div class="included">
+      <div class="section-shell included__grid">
+        <div><p class="section-number light">Pacote completo</p><h2>{{ spa ? 'Conforto em cada detalhe.' : 'Pronta para o primeiro mergulho.' }}</h2><p>{{ spa ? 'Design sofisticado, materiais resistentes e uma experiência pensada para relaxar em ambientes internos ou externos.' : 'Sua piscina acompanha sistema de filtragem, conjunto hidráulico, kit de limpeza, pontos de hidromassagem e iluminação LED.' }}</p><a :href="whats" target="_blank" class="btn-primary cream">Conversar com especialista ↗</a></div>
+        <div class="equipment-grid">
+          <div v-for="(material,index) in item.materias" :key="`${material}-${index}`" class="equipment-item"><img :src="`/imagen/equipamentos/${material}`" alt="Equipamento incluso" loading="lazy" /><span>{{ String(index + 1).padStart(2,'0') }}</span></div>
         </div>
       </div>
     </div>
-    <div class="flex flex-col lg:flex-row md:flex-col">
-      <!-- Div 3 (bottom left) -->
-      <div class="flex-1 lg:w-1/2 md:w-full p-3 md:relative">
-        <h2
-          class="text-4xl font-bold text-cyan-500 mt-8 pb-4 border-b-2 border-gray-400 text-center"
-        >
-          EQUIPAMENTOS QUE ACOMPANHAM<BR /> A SUA RIO PISCINA
-        </h2>
-        <p class="text-black ml-8">Filtro e bomba;(sistema de filtragem de areia).</p>
-        <p class="text-black ml-8">Kit de limpeza (cab o, peneira, aspirador, escova.);</p>
-        <p class="text-black ml-8">02 pontos de hidromassagem</p>
-        <p class="text-black ml-8">led</p>
-
-        <div class="relative overflow-hidden">
-          <p class="text-justify ml-8">
-            <small>
-              Os preços acima são completos: Piscina, Filtro, Kit Aspiração Total, Parte Hidráulica
-              Completa, Mão de Obra de Instalação e Frete. <br />
-              Obs:
-            </small>
-          </p>
-          <div class="text-center">
-            <ul>
-              <li>
-                <h4>
-                  <small
-                    ><strong><span style="color: red">* Lançamentos</span></strong
-                    >, <strong>verifique programação de entrega.</strong></small
-                  >
-                </h4>
-                <small> </small>
-              </li>
-              <li><small>Frete e Mão de Obra podem variar conforme condições locais.</small></li>
-            </ul>
-            <small>
-              <br />
-              Os preços acima podem sofrer alterações sem aviso prévio.
-            </small>
-          </div>
-             <div>
-          <CardProductDetallPage :item="props.item" />
-        </div>
-        </div>
-     
-      </div>
-
-      <!-- Div 4 (bottom right) -->
-      <div class="flex-1 lg:w-1/2 md:w-full">
-        <div
-          v-if="item && item.materias && item.materias.length > 0"
-          class="flex items-center justify-center mt-4"
-        >
-          <img :src="`/imagen/equipamentos/${item.materias[0]}`" alt="Primeira Imagem" class="" />
-        </div>
-
-        <div v-if="item && item.materias && item.materias.length">
-          <div
-            v-for="(materia, index) in Math.ceil(item.materias.length / 3)"
-            :key="index"
-            class="flex items-center justify-center"
-          >
-            <!-- Utilize o índice para obter o início e o fim do grupo de 3 imagens -->
-            <div v-for="i in 3" :key="i" class="ml-4">
-              <img
-                v-if="index * 3 + (i - 1) < item.materias.length"
-                :src="`/imagen/equipamentos/${item.materias[index * 3 + (i - 1)]}`"
-                alt="Imagem"
-                class="w-24 h-24"
-              />
-            </div>
-          </div>
-        </div>
-        <div v-else>
-          <p>Nenhuma imagem disponível.</p>
-        </div>
-      </div>
-    </div>
-  </div>
+  </section>
 </template>
